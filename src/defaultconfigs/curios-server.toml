@@ -1,3 +1,16 @@
-#List of curio slot type settings
-curiosSettings = []
+[[curiosSettings]]
+  visible = true
+  identifier = "head"
 
+[[curiosSettings]]
+  visible = true
+  identifier = "necklace"
+
+[[curiosSettings]]
+  identifier = "ring"
+  visible = true
+  size = 2
+  
+[[curiosSettings]]
+  visible = true
+  identifier = "back"

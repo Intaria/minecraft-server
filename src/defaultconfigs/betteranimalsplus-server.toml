@@ -232,7 +232,7 @@
 
 		[entities.horseshoecrab.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
 			spawn_weight = 8
@@ -323,7 +323,7 @@
 
 		[entities.bobbit_worm.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
 			spawn_weight = 2
@@ -385,7 +385,7 @@
 
 		[entities.whale.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
 			spawn_weight = 2
@@ -803,7 +803,7 @@
 
 		[entities.lamprey.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
 			spawn_weight = 7
@@ -832,7 +832,7 @@
 
 		[entities.nautilus.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
 			spawn_weight = 4
@@ -950,7 +950,7 @@
 
 		[entities.butterfly.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
 			spawn_weight = 10
@@ -979,7 +979,7 @@
 
 		[entities.dragonfly.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
 			spawn_weight = 10
@@ -1066,7 +1066,7 @@
 
 		[entities.piranha.spawning]
 			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
-			spawn_naturally = true
+			spawn_naturally = false
 			#The spawn weight compared to other entities (typically between 6-20)
 			#Range: 1 ~ 9999
 			spawn_weight = 7

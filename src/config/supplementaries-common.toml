@@ -116,7 +116,7 @@
 
 	[blocks.safe]
 		#Makes safes only breakable by their owner or by a player in creative
-		prevent_breaking = false
+		prevent_breaking = true
 		#Make safes simpler so they do not require keys:
 		#they will be bound to the first person that opens one and only that person will be able to interact with them
 		simple_safes = false
@@ -280,7 +280,7 @@
 
 	[tweaks.throwable_bricks]
 		#Throw bricks at your foes! Might break glass blocks
-		enabled = true
+		enabled = false
 
 	[tweaks.wall_lantern]
 		#Allow wall lanterns placement
