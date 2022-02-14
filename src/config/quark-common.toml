@@ -1401,8 +1401,8 @@
 	[client.auto_walk_keybind]
 		"Draw Hud" = true
 		"Hud Height" = 10
-
-[experimental]
+ 
+[experimental]   
 	"Overlay Shader" = false
 	"Narrator Readout" = false
 	"Game Nerfs" = false
