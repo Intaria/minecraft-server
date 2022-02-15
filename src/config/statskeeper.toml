@@ -1,10 +1,10 @@
 
 [experience]
 	#Make the player keep experience when respawning
-	keepExperience = true
+	keepExperience = false
 	#Make the player drop experience on death, 
 	#make sure to disable this when using the keep option because of XP dupes
-	dropExperience = false
+	dropExperience = true
 
 [hunger]
 	#Make the player keep hunger when respawning
