@@ -75,7 +75,7 @@
 	slingshot = false
 	shulker_shell = true
 	candy = true
-	wrench = true
+	wrench = false
 	urn = true
 	ash = true
 	ash_bricks = true
