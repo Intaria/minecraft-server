@@ -1,16 +1,25 @@
 [[curiosSettings]]
-  visible = true
   identifier = "head"
+  visible = true
+  override = true
 
 [[curiosSettings]]
-  visible = true
   identifier = "necklace"
+  visible = true
+  override = true
+  
+[[curiosSettings]]
+  identifier = "back"
+  override = true
+  visible = true
+
+[[curiosSettings]]
+  identifier = "hands"
+  override = true
+  visible = true
 
 [[curiosSettings]]
   identifier = "ring"
+  override = true
   visible = true
   size = 2
-  
-[[curiosSettings]]
-  visible = true
-  identifier = "back"
