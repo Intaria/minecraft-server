@@ -6,4 +6,3 @@
 	preventEndermenFromGriefing = true
 	#If enabled, stops the endermen from attacking first when a player looks at them. Also works for endermite.
 	preventEndermenFromAttackingFirst = false
-

@@ -100,3 +100,4 @@
 		#Remove the sheep's eat block AI task. This causes sheep to no longer eat grass, and thus be unable to regenerate their wool.
 		remove_eat_block = false
 
+

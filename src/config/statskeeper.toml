@@ -69,4 +69,3 @@
 		#Items that increase or decrease current maximal health when used.
 		#Format: "modid:item = N" with N being the health amount. Appending ':' after a negative N will make an item bypass thresholds.
 		regenerativeItems = ["minecraft:nether_star = 1", "minecraft:enchanted_golden_apple = 1", "minecraft:dragon_egg = 1"]
-

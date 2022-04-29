@@ -504,4 +504,3 @@
 		blacklistedBiomesKookaburra = []
 		#A list of dimensions the kookaburra cannot spawn in.
 		blacklistedDimensionsKookaburra = []
-

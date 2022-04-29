@@ -47,4 +47,3 @@
 	[client.debug]
 		#If toast classes are printed when they are shown.
 		print_classes = false
-

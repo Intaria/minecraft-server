@@ -125,7 +125,7 @@
 
 	[blocks.safe]
 		#Makes safes only breakable by their owner or by a player in creative
-		prevent_breaking = true
+		prevent_breaking = false
 		#Make safes simpler so they do not require keys:
 		#they will be bound to the first person that opens one and only that person will be able to interact with them
 		simple_safes = false
@@ -215,9 +215,9 @@
 			average_distance = 19
 			#Minimum distance apart in chunks between spawn attempts. 1001 to disable them entirely
 			#Range: 0 ~ 1001
-			minimum_distance = 1001
+			minimum_distance = 10
 			#With this option road signs will display the distance to the structure that they are pointing to
-			show_distance_text = false
+			show_distance_text = true
 
 		[spawns.structures.wild_flax]
 			enabled = true
@@ -282,15 +282,18 @@
 
 	[tweaks.throwable_bricks]
 		#Throw bricks at your foes! Might break glass blocks
-		enabled = false
+		enabled = true
 
-	[tweaks.wall_lantern]
+	[tweaks.lantern_tweaks]
 		#Allow wall lanterns placement
 		enabled = true
 		#Gives high priority to wall lantern placement. Enable to override other wall lanterns placements, disable if it causes issues with other mods that use lower priority block click events
 		high_priority = true
 		#Mod ids of mods that have lantern block that extend the base lantern class but don't look like one
-		mod_blacklist = ["extlights", "betterendforge", "tconstruct"]
+		mod_blacklist = ["extlights", "betterendforge", "tconstruct", "enigmaticlegacy"]
+		#Allows ceiling lanterns to fall if their support is broken.Additionally if they fall from high enough they will break creating a fire where they land
+		#Allowed Values: ON, OFF, NO_FIRE
+		fallin_lanterns = "ON"
 
 	[tweaks.bells_tweaks]
 		#Ring a bell by clicking on a chain that's connected to it
@@ -321,7 +324,7 @@
 
 	[tweaks.bottle_xp]
 		#Allow bottling up xp by using a bottle on an enchanting table
-		enabled = true
+		enabled = false
 		#bottling health cost
 		#Range: 0 ~ 20
 		cost = 2

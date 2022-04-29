@@ -4,4 +4,3 @@
 	ignorePaintingsInCycleResourceLocation = "infernalexp,"
 	#When enabled, prints all paintings registered to the console. With this you can find which to add to the 'ignorePaintingsInCycleResourceLocationPrefix' config.
 	showRegisteredPaintingsDebug = false
-

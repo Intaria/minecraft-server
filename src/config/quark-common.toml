@@ -1401,8 +1401,8 @@
 	[client.auto_walk_keybind]
 		"Draw Hud" = true
 		"Hud Height" = 10
- 
-[experimental]   
+
+[experimental]
 	"Overlay Shader" = false
 	"Narrator Readout" = false
 	"Game Nerfs" = false
@@ -1520,4 +1520,3 @@
 		"Items In Backpack Tick" = true
 		"Base Ravager Hide Drop" = 1
 		"Extra Chance Per Looting" = 0.5
-

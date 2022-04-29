@@ -6,4 +6,3 @@
 	enableNameTagCommand = true
 	#If enabled, replaces underscores with spaces when using the /nametag command.
 	nameTagCommandReplaceUnderscoresWithSpaces = true
-

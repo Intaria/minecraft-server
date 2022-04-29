@@ -1,0 +1,15 @@
+{
+  "enabledArmors": {
+    "prismarine": true,
+    "steampunk": false,
+    "warrior": true,
+    "robe": true,
+    "wooden": false,
+    "bone": true,
+    "divine": true,
+    "wither": false,
+    "heavy": true,
+    "slime": false
+  },
+  "version": 1
+}

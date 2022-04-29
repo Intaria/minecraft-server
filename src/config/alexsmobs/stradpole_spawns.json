@@ -1,3 +1,18 @@
 {
-  "biomes": []
+  "biomes": [
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "minecraft:basalt_deltas"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "biomesoplenty:withered_abyss"
+      }
+    ]
+  ]
 }

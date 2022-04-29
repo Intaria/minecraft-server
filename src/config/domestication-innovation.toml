@@ -81,4 +81,3 @@
 	undead_curse_enabled = true
 	#true if infamy curse enchant is enabled, false if disabled
 	infamy_curse_enabled = true
-

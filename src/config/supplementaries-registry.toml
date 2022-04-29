@@ -21,7 +21,6 @@
 	notice_board = true
 	crank = true
 	jar = true
-	jar_tinted = false
 	faucet = true
 	turn_table = true
 	spring_launcher = true
@@ -38,7 +37,7 @@
 	globe = true
 	hourglass = true
 	sack = true
-	blackboard = false
+	blackboard = true
 	safe = true
 	copper_lantern = true
 	flute = true
@@ -50,7 +49,7 @@
 	end_stone_lamp = true
 	blackstone_lamp = true
 	deepslate_lamp = true
-	checker_block = true
+	checker_block = false
 	netherite_door = true
 	netherite_trapdoor = true
 	pancake = true
@@ -90,6 +89,7 @@
 	globe_sepia = true
 	present = true
 	stasis = true
+	dispenser_minecart = true
 	silver_trapdoor = true
 	silver_door = true
 	lead_trapdoor = true

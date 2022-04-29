@@ -49,4 +49,3 @@
 		#Goblins will make a grunt noise while walking around. If you find it happening too often, you can increase the interval. Value is represented in ticks.
 		#Range: 1 ~ 1000
 		gruntNoiseInterval = 80
-
