@@ -4,5 +4,6 @@
 	preventEndermenFromTeleporting = false
 	#If enabled, prevents from picking up and placing blocks.
 	preventEndermenFromGriefing = true
-	#If enabled, stops the endermen from attacking first when a player looks at them. Also works for endermite.
-	preventEndermenFromAttackingFirst = false
+	#If enabled, stops the endermen from attacking.
+	preventEndermenFromAttacking = false
+

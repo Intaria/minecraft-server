@@ -313,20 +313,24 @@
 	mechanicalPumpRange = 16
 	# 
 	#[in Blocks]
+	#The maximum distance a hose pulley can draw fluid blocks from.
+	#Range: > 1
+	hosePulleyRange = 128
+	# 
+	#[in Blocks]
 	#[-1 to disable this behaviour]
 	#The minimum amount of fluid blocks the hose pulley needs to find before deeming it an infinite source.
 	#Range: > -1
 	hosePulleyBlockThreshold = 10000
 	# 
-	#Whether hose pulleys should continue filling up above-threshold sources
+	#Whether hose pulleys should continue filling up above-threshold sources.
 	fillInfinite = false
 	# 
-	#[in Blocks]
-	#The maximum distance a hose pulley can draw fluid blocks from.
-	#Range: > 1
-	hosePulleyRange = 128
+	#Configure which fluids can be drained infinitely.
+	#Allowed Values: ALLOW_ALL, DENY_ALL, ALLOW_BY_TAG, DENY_BY_TAG
+	bottomlessFluidMode = "ALLOW_BY_TAG"
 	# 
-	#Whether open-ended pipes and hose pulleys should be allowed to place fluid sources
+	#Whether open-ended pipes and hose pulleys should be allowed to place fluid sources.
 	placeFluidSourceBlocks = true
 
 # 
@@ -429,5 +433,4 @@
 	#Amount of free Potato Cannon shots provided by one filled Copper Backtank. Set to 0 makes Potato Cannons unbreakable
 	#Range: > 0
 	maxPotatoCannonShots = 200
-
 
