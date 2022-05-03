@@ -2,7 +2,7 @@
 [general]
 	#The range from an active beacon where no champions will spawn (0 to disable)
 	#Range: 0 ~ 1000
-	beaconProtectionRange = 0
+	beaconProtectionRange = 64
 	#Set to true to enable champions from mob spawners
 	championSpawners = true
 	#The minimum tier of champions that will have death messages sent out upon defeat (0 to disable)
@@ -22,6 +22,8 @@
 	showHud = true
 	#Set to true to have champions generate a colored particle effect indicating their rank
 	showParticles = true
+	#Set to true to show champion tier and affixes in The One Probe overlay
+	enableTOPIntegration = true
 
 [loot]
 	#Set to true to allow fake players to generate champion loot
@@ -184,5 +186,3 @@
 	#List of tiers with numbers to multiply spawn rates by difficulty
 	#Format: [tier];[percent increase]
 	scalingHealthSpawnModifiers = []
-
-
