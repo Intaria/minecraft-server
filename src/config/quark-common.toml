@@ -267,7 +267,7 @@
 	Pickarang = false
 	"Pathfinder Maps" = false
 	"Endermosh Music Disc" = false
-	"Color Runes" = false
+	"Color Runes" = true
 	Camera = false
 	"Bundle Recipe" = false
 	"Bottled Cloud" = false
@@ -555,7 +555,7 @@
 	"Monster Box" = false
 	"Glimmering Weald" = false
 	"Fairy Rings" = false
-	Corundum = false
+	Corundum = true
 	"Chorus Vegetation" = false
 	"Blossom Trees" = true
 	"Big Stone Clusters" = false
@@ -1552,13 +1552,13 @@
 		"Replace Mobs" = []
 
 [oddities]
-	"Totem Of Holding" = true
-	Pipes = true
-	"Matrix Enchanting" = true
-	Magnets = true
-	Crate = true
-	Backpack = true
-	"Tiny Potato" = true
+	"Totem Of Holding" = false
+	Pipes = false
+	"Matrix Enchanting" = false
+	Magnets = false
+	Crate = false
+	Backpack = false
+	"Tiny Potato" = false
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
