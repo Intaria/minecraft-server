@@ -550,7 +550,7 @@
 [world]
 	"Spiral Spires" = false
 	Permafrost = false
-	"New Stone Types" = false
+	"New Stone Types" = true
 	"Nether Obsidian Spikes" = false
 	"Monster Box" = false
 	"Glimmering Weald" = false
