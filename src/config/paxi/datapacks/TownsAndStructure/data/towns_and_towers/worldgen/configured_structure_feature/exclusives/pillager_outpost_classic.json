@@ -1,0 +1,10 @@
+{
+  "config": {
+    "start_pool": "kaisyn:outpost/exclusives/classic/base_plate",
+    "size": 7
+  },
+  "type": "minecraft:village",
+  "biomes": "#towns_and_towers:exclusives/classic",
+  "adapt_noise": true,
+  "spawn_overrides": {}
+}

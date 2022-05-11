@@ -1,0 +1,69 @@
+{
+  "name": "kaisyn:village/badlands_pueblo/professions_gazebo",
+  "fallback": "kaisyn:village/badlands_pueblo/professions_gazebo",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/professions_gazebo/stonecutter",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/professions_gazebo/barrel",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/professions_gazebo/cauldron",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/professions_gazebo/composter",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/professions_gazebo/loom",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/professions_gazebo/smoker",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/professions_gazebo/fletcher",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}
