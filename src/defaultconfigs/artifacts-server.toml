@@ -3,8 +3,7 @@
 	#List of cosmetic-only items. All items in this list will have their effects disabled
 	#To blacklist all items, use "artifacts:*"
 	#Note: blacklisting an item while it is equipped may have unintended side effects
-	cosmetics = ["artifacts:umbrella","artifacts:eternal_steak","artifacts:everlasting_beef","artifacts:novelty_drinking_hat","artifacts:snorkel","artifacts:scarf_of_invisibility","artifacts:cloud_in_a_bottle","artifacts:charm_of_sinking","artifacts:obsidian_skull","artifacts:universal_attractor","artifacts:helium_flamingo","artifacts:fire_gauntlet","artifacts:vampiric_glove","artifacts:whoopee_cushion"]
-
+	cosmetics = ["artifacts:umbrella", "artifacts:eternal_steak", "artifacts:everlasting_beef", "artifacts:novelty_drinking_hat", "artifacts:snorkel", "artifacts:scarf_of_invisibility", "artifacts:cloud_in_a_bottle", "artifacts:charm_of_sinking", "artifacts:obsidian_skull", "artifacts:universal_attractor", "artifacts:helium_flamingo", "artifacts:fire_gauntlet", "artifacts:vampiric_glove", "artifacts:whoopee_cushion"]
 
 	[items.antidote_vessel]
 		#Affects how many times a negative effect can be shortened before breaking

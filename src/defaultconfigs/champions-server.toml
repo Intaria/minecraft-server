@@ -186,3 +186,4 @@
 	#List of tiers with numbers to multiply spawn rates by difficulty
 	#Format: [tier];[percent increase]
 	scalingHealthSpawnModifiers = []
+
