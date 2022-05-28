@@ -69,3 +69,4 @@
 		# The max number of portal rooms that can spawn in a single stronghold.
 		# Default: 1
 		"Portal Room Max Count" = 1
+

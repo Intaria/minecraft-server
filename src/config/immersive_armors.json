@@ -1,4 +1,6 @@
 {
+  "hideSecondLayerUnderArmor": true,
+  "enableEffects": true,
   "enabledArmors": {
     "prismarine": true,
     "steampunk": false,

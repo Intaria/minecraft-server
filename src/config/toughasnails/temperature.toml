@@ -4,22 +4,42 @@
 	#Number of ticks to delay taking damage when icy or hot.
 	#Range: > 0
 	extremity_damage_delay = 200
+	#Number of ticks to delay changing the player's temperature after their temperature changes.
+	#Range: > 0
+	temperature_change_delay = 500
+	#Number of ticks to delay changing the player's temperature after their temperature changes when wearing armor.
+	#Range: > 0
+	armor_temperature_change_delay = 50
+	#Number of ticks to delay changing the player's temperature after their temperature changes when holding an item.
+	#Range: > 0
+	handheld_temperature_change_delay = 375
+	#Number of ticks to delay changing the player's temperature after their temperature changes when affected by a player-based temperature modifier.
+	#Range: > 0
+	player_temperature_change_delay = 125
+	#Number of ticks to delay changing the player's temperature after their temperature changes when rebounding from an extreme temperature.
+	#Range: > 0
+	extremity_rebound_temperature_change_delay = 250
+	#Number of ticks for the duration of Climate Clemency.
+	#Range: > 0
+	climate_clemency_duration = 6000
+	#Whether or not Climate Clemency should be granted when respawning.
+	climate_clemency_respawning = false
 
 [altitude]
 	#Y level to drop the temperature at when above
-	#Range: -64 ~ 256
+	#Range: -64 ~ 1024
 	temperature_drop_altitude = 96
 	#Y level to rise the temperature at when below
-	#Range: -64 ~ 256
+	#Range: -64 ~ 1024
 	temperature_rise_altitude = 32
 	#Y level above which environmental modifiers are applied
 	#Range: -64 ~ 256
 	environmental_modifier_altitude = 55
 
 [blocks]
-	#The range which constitutes near a heat or cool source
-	#Range: 1 ~ 7
-	near_block_range = 2
+	#The proximity which constitutes near a heat or cool source
+	#Range: 1 ~ 16
+	near_heat_cool_proximity = 7
 
 [immersion]
 	#Amount to change the temperature by when on fire.
