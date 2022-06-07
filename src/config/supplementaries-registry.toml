@@ -22,7 +22,7 @@
 	crank = true
 	jar = true
 	faucet = true
-	turn_table = true
+	turn_table = false
 	spring_launcher = true
 	speaker_block = true
 	sign_post = true
@@ -96,3 +96,4 @@
 	rope_arrow = false
 	bomb = false
 	pancake = true
+

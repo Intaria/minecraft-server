@@ -11,7 +11,7 @@
 	"Total health of the Land Golem" = 250.0
 	#How much of the tower is destroyed after defeating the Golem. Default: 75% of tower.
 	#Range: 0.0 ~ 1.0
-	"Percent of Land Tower to destroy" = 0.83
+	"Percent of Land Tower to destroy" = 0.35
 	#This value is added to the Land Tower minimum separation above to get the average separation between Land Towers for spawning measured in chunks.
 	#I.E. if you leave the minimum separation at 16, and change this value to 10 then Land Towers would spawn on average 26 chunks apart and a minimum of 20 chunks apart.
 	#Range: 1 ~ 100
