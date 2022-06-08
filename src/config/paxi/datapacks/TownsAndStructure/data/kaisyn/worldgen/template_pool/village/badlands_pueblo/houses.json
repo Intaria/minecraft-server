@@ -111,6 +111,15 @@
       }
     },
     {
+      "weight": 1,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/houses/misc_profession",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
       "weight": 2,
       "element": {
         "location": "kaisyn:village/badlands_pueblo/houses/medium_house_1_l",

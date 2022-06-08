@@ -99,6 +99,14 @@
     {
       "structure": "towns_and_towers:exclusives/pillager_outpost_classic",
       "weight": 1
+    },
+    {
+      "structure": "towns_and_towers:exclusives/pillager_outpost_oriental",
+      "weight": 1
+    },
+    {
+      "structure": "towns_and_towers:exclusives/pillager_outpost_swedish",
+      "weight": 1
     }
   ],
   "placement": {

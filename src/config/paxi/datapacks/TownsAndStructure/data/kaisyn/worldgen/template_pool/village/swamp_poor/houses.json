@@ -34,6 +34,15 @@
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
         "projection": "rigid",
+        "location": "kaisyn:village/swamp_poor/houses/butcher_house_1",
+        "processors": "kaisyn:street_swamp"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
         "location": "kaisyn:village/swamp_poor/houses/church_1",
         "processors": "kaisyn:street_swamp"
       }

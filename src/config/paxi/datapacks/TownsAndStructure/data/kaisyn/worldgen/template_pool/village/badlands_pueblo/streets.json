@@ -28,6 +28,15 @@
         "projection": "rigid",
         "element_type": "minecraft:legacy_single_pool_element"
       }
-    }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kaisyn:village/badlands_pueblo/streets/crossroad_02",
+        "processors": "kaisyn:street_pueblo",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }    
   ]
 }

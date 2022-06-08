@@ -1,7 +1,7 @@
 {
   "config": {
     "start_pool": "kaisyn:village/badlands_pueblo/town_centers",
-    "size": 3
+    "size": 4
   },
   "type": "minecraft:village",
   "biomes": "#towns_and_towers:badlands",

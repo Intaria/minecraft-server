@@ -48,6 +48,24 @@
       }
     },
     {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/farm_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "kaisyn:village/sparse_jungle_hawaii/houses/fletcher_fischer_1",
+        "processors": "kaisyn:street_hawaii"
+      }
+    },
+    {
       "weight": 3,
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
