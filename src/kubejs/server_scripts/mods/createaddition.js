@@ -1,4 +1,3 @@
-/*
 onEvent('recipes', event => {
     event.remove({output: 'createaddition:accumulator'});
     event.remove({output: 'createaddition:alternator'});
@@ -86,4 +85,3 @@ onEvent('recipes', event => {
         I: 'create:iron_sheet', C: 'create:copper_sheet', R: 'minecraft:redstone_torch'
     });
 })
-*/
