@@ -5,5 +5,5 @@
   },
   "type": "minecraft:bastion_remnant", 
   "spawn_overrides": {},
-  "biomes": "#towns_and_towers:ocean"
+  "biomes": ""
 }
