@@ -9,7 +9,7 @@
 		ruby_min_vein_size = 1
 		#Maximum size of Ruby Ore veins - default = 8
 		#Range: 0 ~ 100
-		ruby_max_vein_size = 3
+		ruby_max_vein_size = 2
 		#Number of Ruby Ore veins generated in a chunk - default = 4
 		#Range: 0 ~ 1000
 		ruby_chance = 2
@@ -28,7 +28,7 @@
 		sapphire_min_vein_size = 1
 		#Maximum size of Sapphire Ore veins - default = 8
 		#Range: 0 ~ 100
-		sapphire_max_vein_size = 3
+		sapphire_max_vein_size = 2
 		#Number of Sapphire Ore veins generated in a chunk - default = 4
 		#Range: 0 ~ 1000
 		sapphire_chance = 2
@@ -47,7 +47,7 @@
 		topaz_min_vein_size = 1
 		#Maximum size of Topaz Ore veins - default = 8
 		#Range: 0 ~ 100
-		topaz_max_vein_size = 3
+		topaz_max_vein_size = 2
 		#Number of Topaz Ore veins generated in a chunk - default = 4
 		#Range: 0 ~ 1000
 		topaz_chance = 2
@@ -60,16 +60,16 @@
 
 	[oregen.amethyst_ore]
 		#Generate Amethyst Ore in the overworld - [true/false]
-		generate_amethyst = true
+		generate_amethyst = false
 		#Minimum size of Amethyst Ore veins - default = 5
 		#Range: 0 ~ 100
-		amethyst_min_vein_size = 1
+		amethyst_min_vein_size = 0
 		#Maximum size of Amethyst Ore veins - default = 8
 		#Range: 0 ~ 100
-		amethyst_max_vein_size = 3
+		amethyst_max_vein_size = 0
 		#Number of Amethyst Ore veins generated in a chunk - default = 3
 		#Range: 0 ~ 1000
-		amethyst_chance = 2
+		amethyst_chance = 0
 		#Minimum height for Amethyst Ore generation - default = -64
 		#Range: -64 ~ 319
 		amethyst_min_height = -64
