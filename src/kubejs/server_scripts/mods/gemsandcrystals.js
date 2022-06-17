@@ -10,6 +10,7 @@ onEvent('recipes', event => {
     event.remove({output: 'gemsandcrystals:ruby_axe'});
     event.remove({output: 'gemsandcrystals:ruby_leggings'});
     event.remove({output: 'gemsandcrystals:ruby_boots'});
+    event.remove({output: 'gemsandcrystals:ruby_horse_armor'});
 
     event.remove({output: 'gemsandcrystals:sapphire_axe'});
     event.remove({output: 'gemsandcrystals:sapphire_hoe'});
@@ -22,6 +23,7 @@ onEvent('recipes', event => {
     event.remove({output: 'gemsandcrystals:sapphire_axe'});
     event.remove({output: 'gemsandcrystals:sapphire_leggings'});
     event.remove({output: 'gemsandcrystals:sapphire_boots'});
+    event.remove({output: 'gemsandcrystals:sapphire_horse_armor'});
 
     event.remove({output: 'gemsandcrystals:emerald_axe'});
     event.remove({output: 'gemsandcrystals:emerald_hoe'});
@@ -34,6 +36,7 @@ onEvent('recipes', event => {
     event.remove({output: 'gemsandcrystals:emerald_axe'});
     event.remove({output: 'gemsandcrystals:emerald_leggings'});
     event.remove({output: 'gemsandcrystals:emerald_boots'});
+    event.remove({output: 'gemsandcrystals:emerald_horse_armor'});
 
     event.remove({output: 'gemsandcrystals:topaz_axe'});
     event.remove({output: 'gemsandcrystals:topaz_hoe'});
@@ -46,6 +49,7 @@ onEvent('recipes', event => {
     event.remove({output: 'gemsandcrystals:topaz_axe'});
     event.remove({output: 'gemsandcrystals:topaz_leggings'});
     event.remove({output: 'gemsandcrystals:topaz_boots'});
+    event.remove({output: 'gemsandcrystals:topaz_horse_armor'});
 
     event.remove({output: 'gemsandcrystals:amethyst_axe'});
     event.remove({output: 'gemsandcrystals:amethyst_hoe'});
@@ -58,6 +62,7 @@ onEvent('recipes', event => {
     event.remove({output: 'gemsandcrystals:amethyst_axe'});
     event.remove({output: 'gemsandcrystals:amethyst_leggings'});
     event.remove({output: 'gemsandcrystals:amethyst_boots'});
+    event.remove({output: 'gemsandcrystals:amethyst_horse_armor'});
 
     event.remove({output: 'gemsandcrystals:quartz_axe'});
     event.remove({output: 'gemsandcrystals:quartz_hoe'});
@@ -70,4 +75,5 @@ onEvent('recipes', event => {
     event.remove({output: 'gemsandcrystals:quartz_axe'});
     event.remove({output: 'gemsandcrystals:quartz_leggings'});
     event.remove({output: 'gemsandcrystals:quartz_boots'});
+    event.remove({output: 'gemsandcrystals:quartz_horse_armor'});
 })
