@@ -1,19 +1,33 @@
 
 ["General Settings -- Negative values are ignored"]
-	#The minimum possible distance between Land Towers measured in chunks. Default: 32 chunks
+	#The minimum possible distance between Land Towers measured in chunks. (due to structure changes in 1.18.2 there is now a self imposed 20 chunk minimum. Default and Minimum: 20 Chunks
 	"Land minimum separation" = 32
-	#Minimum distance from spawn a Tower can be measured in chunks (Applies to X and Z). Default: 96 chunks 
-	"First Tower Distance" = 96
+	#The minimum possible distance between Ocean Towers measured in chunks. (due to structure changes in 1.18.2 there is now a self imposed 16 chunk minimum. Default and Minimum: 16 Chunks
+	"Ocean minimum separation" = 24
+	#Minimum distance from spawn a Tower can be measured in chunks (Applies to X and Z). Default: 35 chunks 
+	"First Tower Distance" = 72
 
 ["Advanced Settings -- take note of the range for each value, values outside the ranges will be discarded"]
 	#The total health of the Land Golem, divide by two per heart. I.E a value of 300 is 150 hearts
 	#Range: 200.0 ~ 1800.0
 	"Total health of the Land Golem" = 250.0
-	#How much of the tower is destroyed after defeating the Golem. Default: 75% of tower.
+	#How much of the tower is destroyed after defeating the Golem. Default: 83% of tower.
 	#Range: 0.0 ~ 1.0
 	"Percent of Land Tower to destroy" = 0.35
 	#This value is added to the Land Tower minimum separation above to get the average separation between Land Towers for spawning measured in chunks.
-	#I.E. if you leave the minimum separation at 16, and change this value to 10 then Land Towers would spawn on average 26 chunks apart and a minimum of 20 chunks apart.
+	#I.E. if you leave the minimum separation at 20, and change this value to 10 then Land Towers would spawn a maximum of 30 chunks (20 + 10) apart and a minimum of 20 chunks apart.
 	#Range: 1 ~ 100
 	"Land average separation modifier" = 16
+	#This value is added to the Ocean Tower minimum separation above to get the average separation between Ocean Towers for spawning measured in chunks.
+	#See Land Tower Average Separation for explanation of use.
+	#Range: 1 ~ 100
+	"Ocean average separation modifier" = 24
+	#The total health of the Ocean Golem, divide by two per heart. I.E a value of 300 is 150 hearts
+	#Range: 250.0 ~ 2000.0
+	"Total health of the Ocean Golem" = 350.0
 
+["Crash-able settings -- If you edit these, and the game crashes, its on you"]
+	#A list of mob ids of possible mobs to spawn in spawners inside the land tower. Must contain at least one value
+	"Land Tower Mobs" = ["minecraft:zombie", "minecraft:skeleton", "minecraft:spider"]
+	#A list of mob ids of possible mobs to spawn in spawners inside the land tower. Must contain at least one value
+	"Ocean Tower Mobs" = ["minecraft:drowned", "minecraft:guardian", "minecraft:drowned", "minecraft:pufferfish"]
