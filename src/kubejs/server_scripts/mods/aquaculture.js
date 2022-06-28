@@ -9,6 +9,7 @@ onEvent('recipes', event => {
     event.remove({output: 'aquaculture:gold_fillet_knife'});
     event.remove({output: 'aquaculture:diamond_fillet_knife'});
     event.remove({output: 'aquaculture:neptunium_fillet_knife'});
+    event.remove({output: 'aquaculture:neptunium_fishing_rod'});
 
     event.remove({output: 'aquaculture:neptunium_ingot'});
     event.remove({output: 'aquaculture:neptunium_nugget'});
