@@ -2,6 +2,6 @@
 [General]
 	otterSpawnBiomes = "minecraft:swamp,minecraft:river"
 	otterSpawnRate = 200
-	otterSpawnMin = 3
-	otterSpawnMax = 5
+	otterSpawnMin = 1
+	otterSpawnMax = 4
 
