@@ -12,4 +12,6 @@ onEvent('recipes', event => {
     event.remove({output: 'toughasnails:leaf_leggings'});
     event.remove({output: 'toughasnails:leaf_chestplate'});
     event.remove({output: 'toughasnails:leaf_helment'});
+
+    event.remove({output: 'toughasnails:melon_juice'});
 })

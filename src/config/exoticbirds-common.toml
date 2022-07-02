@@ -49,7 +49,7 @@
 		#A list of dimensions that nests should not generate in.
 		blacklistedNestGenDimensions = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
 		#Allow eggs to regenerate in nests. Default = true
-		allowNestEggRegen = true
+		allowNestEggRegen = false
 
 	[general.birdbook]
 		#Allow experience to be obtained by logging birds. Default = true
