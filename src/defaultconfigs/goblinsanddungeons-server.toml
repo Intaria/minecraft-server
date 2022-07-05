@@ -5,28 +5,28 @@
 	"Ogre Spawn Weight" = 2
 	#The farthest two Large Goblin Camps can spawn from eachother. Keep this value higher than the min. Default is 100
 	#Range: 1 ~ 300
-	"Large Goblin Camp Max Distance" = 2000
+	"Large Goblin Camp Max Distance" = 250
 	#The closest two Large Goblin Camps can spawn from eachother. Keep this value lower than the max. Default is 50
 	#Range: 1 ~ 300
-	"Large Goblin Camp Min Distance" = 1000
+	"Large Goblin Camp Min Distance" = 200
 	#The farthest two Medium Goblin Camps can spawn from eachother. Keep this value higher than the min. Default is 100
 	#Range: 1 ~ 300
-	"Medium Goblin Camp Max Distance" = 1500
+	"Medium Goblin Camp Max Distance" = 200
 	#The closest two Medium Goblin Camps can spawn from eachother. Keep this value lower than the max. Default is 50
 	#Range: 1 ~ 300
-	"Medium Goblin Camp Min Distance" = 750
+	"Medium Goblin Camp Min Distance" = 150
 	#The farthest two Small Goblin Camps can spawn from eachother. Keep this value higher than the min. Default is 100
 	#Range: 1 ~ 300
-	"Small Goblin Camp Max Distance" = 1000
+	"Small Goblin Camp Max Distance" = 150
 	#The closest two Small Goblin Camps can spawn from eachother. Keep this value lower than the max. Default is 50
 	#Range: 1 ~ 300
-	"Small Goblin Camp Min Distance" = 500
+	"Small Goblin Camp Min Distance" = 100
 	#The farthest two Ruined Keeps can spawn from eachother. Keep this value higher than the min. Default is 100
 	#Range: 1 ~ 300
-	"Ruined Keep Max Distance" = 3000
+	"Ruined Keep Max Distance" = 300
 	#The closest two Ruined Keeps can spawn from eachother. Keep this value lower than the max. Default is 50
 	#Range: 1 ~ 300
-	"Ruined Keep Min Distance" = 1500
+	"Ruined Keep Min Distance" = 250
 	#Even I don't know what it does. Default is false
 	"Super Secret Settings" = false
 
