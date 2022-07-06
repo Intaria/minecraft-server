@@ -13,4 +13,5 @@ onEvent('recipes', event => {
     event.remove({output: 'oreganized:electrum_leggings'});
     event.remove({output: 'oreganized:electrum_boots'});
     event.remove({output: 'oreganized:silver_mirror'});
+    event.remove({output: 'oreganized:bush_hammer'});
 })
