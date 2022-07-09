@@ -12,7 +12,6 @@ onEvent('recipes', event => {
     event.remove({output: 'createaddition:rolling_mill'});
     event.remove({output: 'createaddition:spool'});
     event.remove({output: 'createaddition:tesla_coil'});
-    event.remove({output: 'createaddition:zinc_sheet'});
 
     event.remove({output: 'createaddition:accumulator'});
     event.shaped('createaddition:accumulator', [

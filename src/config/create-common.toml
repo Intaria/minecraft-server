@@ -6,12 +6,12 @@
 	[worldgen.v2]
 		# 
 		#Prevents all worldgen added by Create from taking effect
-		disableWorldGen = true
+		disableWorldGen = false
 
 		[worldgen.v2.striated_ores_nether]
 			# 
 			#Range: > 0
-			clusterSize = 32
+			clusterSize = 18
 			# 
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
@@ -29,7 +29,7 @@
 		[worldgen.v2.striated_ores_overworld]
 			# 
 			#Range: > 0
-			clusterSize = 32
+			clusterSize = 24
 			# 
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
@@ -57,8 +57,8 @@
 			frequency = 8.0
 			# 
 			#Range: > -64
-			minHeight = -63
+			minHeight = -10
 			# 
 			#Range: > -64
-			maxHeight = 70
+			maxHeight = 30
 

@@ -1,7 +1,4 @@
 onEvent('recipes', event => {
-    event.remove({output: 'create:raw_zinc_block'});
-    event.remove({output: 'create:zinc_block'});
-    event.remove({output: 'create:adjustable_chain_gearshift'});
     event.remove({output: 'create:andesite_funnel'});
     event.remove({output: 'create:andesite_tunnel'});
     event.remove({output: 'create:attribute_filter'});
@@ -9,23 +6,14 @@ onEvent('recipes', event => {
     event.remove({output: 'create:blaze_burner'});
     event.remove({output: 'create:blaze_cake'});
     event.remove({output: 'create:blaze_cake_base'});
-    event.remove({output: 'create:brass_casing'});
     event.remove({output: 'create:brass_hand'});
     event.remove({output: 'create:brass_funnel'});
     event.remove({output: 'create:brass_tunnel'});
-    event.remove({output: 'create:brass_sheet'});
-    event.remove({output: 'create:brass_nugget'});
-    event.remove({output: 'create:brass_ingot'});
-    event.remove({output: 'create:brass_block'});
-    event.remove({output: 'create:brass_lantern'});
-    event.remove({output: 'create:brass_ladder'});
     event.remove({output: 'create:crafter_slot_cover'});
-    event.remove({output: 'create:crushed_zinc_ore'});
     event.remove({output: 'create:deployer'});
     event.remove({output: 'create:empty_blaze_burner'});
     event.remove({output: 'create:empty_schematic'});
     event.remove({output: 'create:extendo_grip'});
-    event.remove({output: 'create:furnace_engine'});
     event.remove({output: 'create:haunted_bell'});
     event.remove({output: 'create:item_vault'});
 
@@ -40,16 +28,12 @@ onEvent('recipes', event => {
     event.remove({output: 'create:redstone_link'});
     event.remove({output: 'create:red_sand_paper'});
     event.remove({output: 'create:rose_quartz'});
-    event.remove({output: 'create:raw_zinc'});
     event.remove({output: 'create:rotation_speed_controller'});
     event.remove({output: 'create:sand_paper'});
     event.remove({output: 'create:sequenced_gearshift'});
     event.remove({output: 'create:smart_chute'});
-    event.remove({output: 'create:smart_fluid_pipe'});
     event.remove({output: 'create:speedometer'});
     event.remove({output: 'create:stressometer'});
-    event.remove({output: 'create:zinc_nugget'});
-    event.remove({output: 'create:zinc_ingot'});
 
 
     event.remove({output: 'create:mechanical_arm'});
@@ -72,6 +56,12 @@ onEvent('recipes', event => {
     event.remove({output: 'create:train_door'});
     event.remove({output: 'create:train_trapdoor'});
     event.remove({output: 'create:controls'});
+
+    //Временно убираем, пока не придумаем, как внедрить роз кварц (мб из кварка)
+    event.remove({output: 'create:rose_quartz_lamp'});
+    event.remove({output: 'create:rose_quartz_block'});
+    event.remove({output: 'create:rose_quartz_tiles'});
+    event.remove({output: 'create:small_rose_quartz_tiles'});
 
     event.remove({output: 'create:cut_granite'});
     event.remove({output: 'create:cut_granite_stairs'});
@@ -199,139 +189,6 @@ onEvent('recipes', event => {
     event.remove({output: 'create:small_tuff_wall'});
     event.remove({output: 'create:layered_tuff'});
     event.remove({output: 'create:tuff_pillar'});
-    event.remove({output: 'create:asurine'});
-    event.remove({output: 'create:cut_asurine'});
-    event.remove({output: 'create:cut_asurine_stairs'});
-    event.remove({output: 'create:cut_asurine_slab'});
-    event.remove({output: 'create:cut_asurine_wall'});
-    event.remove({output: 'create:polished_cut_asurine'});
-    event.remove({output: 'create:polished_cut_asurine_stairs'});
-    event.remove({output: 'create:polished_cut_asurine_slab'});
-    event.remove({output: 'create:polished_cut_asurine_wall'});
-    event.remove({output: 'create:cut_asurine_bricks'});
-    event.remove({output: 'create:cut_asurine_brick_stairs'});
-    event.remove({output: 'create:cut_asurine_brick_slab'});
-    event.remove({output: 'create:cut_asurine_brick_wall'});
-    event.remove({output: 'create:small_asurine_bricks'});
-    event.remove({output: 'create:small_asurine_stairs'});
-    event.remove({output: 'create:small_asurine_slab'});
-    event.remove({output: 'create:small_asurine_wall'});
-    event.remove({output: 'create:layered_asurine'});
-    event.remove({output: 'create:asurine_pillar'});
-    event.remove({output: 'create:crimsite'});
-    event.remove({output: 'create:cut_crimsite'});
-    event.remove({output: 'create:cut_crimsite_stairs'});
-    event.remove({output: 'create:cut_crimsite_slab'});
-    event.remove({output: 'create:cut_crimsite_wall'});
-    event.remove({output: 'create:polished_cut_crimsite'});
-    event.remove({output: 'create:polished_cut_crimsite_stairs'});
-    event.remove({output: 'create:polished_cut_crimsite_slab'});
-    event.remove({output: 'create:polished_cut_crimsite_wall'});
-    event.remove({output: 'create:cut_crimsite_bricks'});
-    event.remove({output: 'create:cut_crimsite_brick_stairs'});
-    event.remove({output: 'create:cut_crimsite_brick_slab'});
-    event.remove({output: 'create:cut_crimsite_brick_wall'});
-    event.remove({output: 'create:small_crimsite_bricks'});
-    event.remove({output: 'create:small_crimsite_stairs'});
-    event.remove({output: 'create:small_crimsite_slab'});
-    event.remove({output: 'create:small_crimsite_wall'});
-    event.remove({output: 'create:layered_crimsite'});
-    event.remove({output: 'create:crimsite_pillar'});
-    event.remove({output: 'create:limestone'});
-    event.remove({output: 'create:cut_limestone'});
-    event.remove({output: 'create:cut_limestone_stairs'});
-    event.remove({output: 'create:cut_limestone_slab'});
-    event.remove({output: 'create:cut_limestone_wall'});
-    event.remove({output: 'create:polished_cut_limestone'});
-    event.remove({output: 'create:polished_cut_limestone_stairs'});
-    event.remove({output: 'create:polished_cut_limestone_slab'});
-    event.remove({output: 'create:polished_cut_limestone_wall'});
-    event.remove({output: 'create:cut_limestone_bricks'});
-    event.remove({output: 'create:cut_limestone_brick_stairs'});
-    event.remove({output: 'create:cut_limestone_brick_slab'});
-    event.remove({output: 'create:cut_limestone_brick_wall'});
-    event.remove({output: 'create:small_limestone_bricks'});
-    event.remove({output: 'create:small_limestone_stairs'});
-    event.remove({output: 'create:small_limestone_slab'});
-    event.remove({output: 'create:small_limestone_wall'});
-    event.remove({output: 'create:layered_limestone'});
-    event.remove({output: 'create:limestone_pillar'});
-    event.remove({output: 'create:ochrum'});
-    event.remove({output: 'create:cut_ochrum'});
-    event.remove({output: 'create:cut_ochrum_stairs'});
-    event.remove({output: 'create:cut_ochrum_slab'});
-    event.remove({output: 'create:cut_ochrum_wall'});
-    event.remove({output: 'create:polished_cut_ochrum'});
-    event.remove({output: 'create:polished_cut_ochrum_stairs'});
-    event.remove({output: 'create:polished_cut_ochrum_slab'});
-    event.remove({output: 'create:polished_cut_ochrum_wall'});
-    event.remove({output: 'create:cut_ochrum_bricks'});
-    event.remove({output: 'create:cut_ochrum_brick_stairs'});
-    event.remove({output: 'create:cut_ochrum_brick_slab'});
-    event.remove({output: 'create:cut_ochrum_brick_wall'});
-    event.remove({output: 'create:small_ochrum_bricks'});
-    event.remove({output: 'create:small_ochrum_stairs'});
-    event.remove({output: 'create:small_ochrum_slab'});
-    event.remove({output: 'create:small_ochrum_wall'});
-    event.remove({output: 'create:layered_ochrum'});
-    event.remove({output: 'create:ochrum_pillar'});
-    event.remove({output: 'create:scoria'});
-    event.remove({output: 'create:cut_scoria'});
-    event.remove({output: 'create:cut_scoria_stairs'});
-    event.remove({output: 'create:cut_scoria_slab'});
-    event.remove({output: 'create:cut_scoria_wall'});
-    event.remove({output: 'create:polished_cut_scoria'});
-    event.remove({output: 'create:polished_cut_scoria_stairs'});
-    event.remove({output: 'create:polished_cut_scoria_slab'});
-    event.remove({output: 'create:polished_cut_scoria_wall'});
-    event.remove({output: 'create:cut_scoria_bricks'});
-    event.remove({output: 'create:cut_scoria_brick_stairs'});
-    event.remove({output: 'create:cut_scoria_brick_slab'});
-    event.remove({output: 'create:cut_scoria_brick_wall'});
-    event.remove({output: 'create:small_scoria_bricks'});
-    event.remove({output: 'create:small_scoria_stairs'});
-    event.remove({output: 'create:small_scoria_slab'});
-    event.remove({output: 'create:small_scoria_wall'});
-    event.remove({output: 'create:layered_scoria'});
-    event.remove({output: 'create:scoria_pillar'});
-    event.remove({output: 'create:scorchia'});
-    event.remove({output: 'create:cut_scorchia'});
-    event.remove({output: 'create:cut_scorchia_stairs'});
-    event.remove({output: 'create:cut_scorchia_slab'});
-    event.remove({output: 'create:cut_scorchia_wall'});
-    event.remove({output: 'create:polished_cut_scorchia'});
-    event.remove({output: 'create:polished_cut_scorchia_stairs'});
-    event.remove({output: 'create:polished_cut_scorchia_slab'});
-    event.remove({output: 'create:polished_cut_scorchia_wall'});
-    event.remove({output: 'create:cut_scorchia_bricks'});
-    event.remove({output: 'create:cut_scorchia_brick_stairs'});
-    event.remove({output: 'create:cut_scorchia_brick_slab'});
-    event.remove({output: 'create:cut_scorchia_brick_wall'});
-    event.remove({output: 'create:small_scorchia_bricks'});
-    event.remove({output: 'create:small_scorchia_stairs'});
-    event.remove({output: 'create:small_scorchia_slab'});
-    event.remove({output: 'create:small_scorchia_wall'});
-    event.remove({output: 'create:layered_scorchia'});
-    event.remove({output: 'create:scorchia_pillar'});
-    event.remove({output: 'create:veridium'});
-    event.remove({output: 'create:cut_veridium'});
-    event.remove({output: 'create:cut_veridium_stairs'});
-    event.remove({output: 'create:cut_veridium_slab'});
-    event.remove({output: 'create:cut_veridium_wall'});
-    event.remove({output: 'create:polished_cut_veridium'});
-    event.remove({output: 'create:polished_cut_veridium_stairs'});
-    event.remove({output: 'create:polished_cut_veridium_slab'});
-    event.remove({output: 'create:polished_cut_veridium_wall'});
-    event.remove({output: 'create:cut_veridium_bricks'});
-    event.remove({output: 'create:cut_veridium_brick_stairs'});
-    event.remove({output: 'create:cut_veridium_brick_slab'});
-    event.remove({output: 'create:cut_veridium_brick_wall'});
-    event.remove({output: 'create:small_veridium_bricks'});
-    event.remove({output: 'create:small_veridium_stairs'});
-    event.remove({output: 'create:small_veridium_slab'});
-    event.remove({output: 'create:small_veridium_wall'});
-    event.remove({output: 'create:layered_veridium'});
-    event.remove({output: 'create:veridium_pillar'});
     event.remove({output: 'create:small_granite_brick_stairs'});
     event.remove({output: 'create:small_granite_brick_slab'});
     event.remove({output: 'create:small_granite_brick_wall'});
@@ -353,42 +210,26 @@ onEvent('recipes', event => {
     event.remove({output: 'create:small_tuff_brick_stairs'});
     event.remove({output: 'create:small_tuff_brick_slab'});
     event.remove({output: 'create:small_tuff_brick_wall'});
-    event.remove({output: 'create:small_asurine_brick_stairs'});
-    event.remove({output: 'create:small_asurine_brick_slab'});
-    event.remove({output: 'create:small_asurine_brick_wall'});
-    event.remove({output: 'create:small_crimsite_brick_stairs'});
-    event.remove({output: 'create:small_crimsite_brick_slab'});
-    event.remove({output: 'create:small_crimsite_brick_wall'});
-    event.remove({output: 'create:small_limestone_brick_stairs'});
-    event.remove({output: 'create:small_limestone_brick_slab'});
-    event.remove({output: 'create:small_limestone_brick_wall'});
-    event.remove({output: 'create:small_ochrum_brick_stairs'});
-    event.remove({output: 'create:small_ochrum_brick_slab'});
-    event.remove({output: 'create:small_ochrum_brick_wall'});
-    event.remove({output: 'create:small_scoria_brick_stairs'});
-    event.remove({output: 'create:small_scoria_brick_slab'});
-    event.remove({output: 'create:small_scoria_brick_wall'});
-    event.remove({output: 'create:small_scorchia_brick_stairs'});
-    event.remove({output: 'create:small_scorchia_brick_slab'});
-    event.remove({output: 'create:small_scorchia_brick_wall'});
-    event.remove({output: 'create:small_veridium_brick_stairs'});
-    event.remove({output: 'create:small_veridium_brick_slab'});
-    event.remove({output: 'create:small_veridium_brick_wall'});
 
-    //Временно убираем, пока не придумаем, как внедрить роз кварц (мб из кварка)
-    event.remove({output: 'create:rose_quartz_lamp'});
-    event.remove({output: 'create:rose_quartz_block'});
-    event.remove({output: 'create:rose_quartz_tiles'});
-    event.remove({output: 'create:small_rose_quartz_tiles'});
-
-    event.remove({output: 'create:nixie_tube'});
-    event.shaped('create:nixie_tube', [
-        '   ',
-        'TCT',
-        '   '
+    event.remove({output: 'create:brass_ingot'});
+    event.shaped('create:brass_ingot', [
+        'NNN',
+        'NNN',
+        'NNN'
     ], {
-        T: 'create:electron_tube', C: 'create:copper_casing'
+        N: 'create:brass_nugget'
     });
+    event.shapeless('9x create:brass_ingot', [
+        'create:brass_block'
+    ]);
+    event.shaped('2x create:brass_ingot', [
+        'C',
+        'Z',
+        'C'
+    ], {
+        C: 'minecraft:copper_ingot', Z: 'create:zinc_ingot'
+    });
+
 
     event.remove({output: 'create:crushing_wheel'});
     event.shaped('create:crushing_wheel', [
@@ -398,16 +239,6 @@ onEvent('recipes', event => {
     ], {
         A: 'create:andesite_alloy', P: '#minecraft:planks', S: '#forge:stone'
     });
-
-    event.remove({output: 'create:flywheel'});
-    event.shaped('create:flywheel', [
-        'PGP',
-        'GAG',
-        'PGP'
-    ], {
-        A: 'create:andesite_alloy', P: '#minecraft:planks', G: 'minecraft:gold_ingot'
-    });
-
 
     //заменить в будущем на рецепт от пресса (просто прессовать)
     event.remove({output: 'create:sturdy_sheet'});
@@ -429,36 +260,6 @@ onEvent('recipes', event => {
         'C',
     ], {
         S: 'create:sturdy_sheet', C: 'create:copper_casing'
-    });
-
-    //заменить в будущем на какой-то другой материал
-    event.shaped('create:train_door', [
-        'G',
-        'D',
-    ], {
-        D: 'minecraft:wooden_doors', G: 'create:golden_sheet'
-    });
-
-    //заменить в будущем на какой-то другой материал
-    event.shaped('create:train_trapdoor', [
-        'G',
-        'T',
-    ], {
-        T: 'minecraft:wooden_trapdoors', G: 'create:golden_sheet'
-    });
-
-    event.shaped('create:track', [
-        'R',
-        'S',
-    ], {
-        S: 'create:sleepers', R: 'minecraft:rail'
-    });
-
-    event.shaped('create:controls', [
-        'L',
-        'C',
-    ], {
-        C: 'create:railway_casing', L: 'minecraft:lever'
     });
     */
 })

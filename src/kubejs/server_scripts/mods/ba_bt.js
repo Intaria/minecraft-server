@@ -15,13 +15,6 @@ onEvent('recipes', event => {
     event.shapeless('9x ba_bt:platinum_ingot', [
         'ba_bt:platinum_block'
     ]);
-    event.shaped('ba_bt:platinum_ingot', [
-        'SSS',
-        'SSS',
-        'SSS'
-    ], {
-        S: 'ba_bt:platinum_shard'
-    });
 
 
     event.shaped('ba_bt:platinum_sword', [

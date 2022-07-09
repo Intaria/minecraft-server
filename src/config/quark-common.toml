@@ -979,7 +979,7 @@
 		"Blocks To Replace" = ["minecraft:stone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:netherrack|minecraft:the_nether", "minecraft:end_stone|minecraft:the_end", "quark:marble", "quark:limestone", "quark:jasper", "quark:slate"]
 
 		[world.big_stone_clusters.calcite]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [-64,320]
@@ -1015,7 +1015,7 @@
 					"Is Blacklist" = true
 
 		[world.big_stone_clusters.limestone]
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,)
 			Rarity = 4
 			#Allowed values: [-64,320]
