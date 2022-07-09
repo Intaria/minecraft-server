@@ -18,27 +18,21 @@ onEvent('recipes', event => {
     event.remove({output: 'create:brass_ingot'});
     event.remove({output: 'create:brass_block'});
     event.remove({output: 'create:brass_lantern'});
+    event.remove({output: 'create:brass_ladder'});
     event.remove({output: 'create:crafter_slot_cover'});
     event.remove({output: 'create:crushed_zinc_ore'});
-    event.remove({output: 'create:crushing_wheel'});
     event.remove({output: 'create:deployer'});
     event.remove({output: 'create:empty_blaze_burner'});
     event.remove({output: 'create:empty_schematic'});
     event.remove({output: 'create:extendo_grip'});
-    event.remove({output: 'create:flywheel'});
     event.remove({output: 'create:furnace_engine'});
     event.remove({output: 'create:haunted_bell'});
     event.remove({output: 'create:item_vault'});
+
     event.remove({output: 'create:linked_controller'});
-    event.remove({output: 'create:mechanical_arm'});
-    event.remove({output: 'create:mechanical_drill'});
-    event.remove({output: 'create:mechanical_crafter'});
-    event.remove({output: 'create:mechanical_harvester'});
-    event.remove({output: 'create:mechanical_plough'});
-    event.remove({output: 'create:nixie_tube'});
-    event.remove({output: 'create:mechanical_saw'});
+
+    //Слишком много автоматизации
     event.remove({output: 'create:polished_rose_quartz'});
-    event.remove({output: 'create:potato_cannon'});
     event.remove({output: 'create:precision_mechanism'});
     event.remove({output: 'create:peculiar_bell'});
     event.remove({output: 'create:pulse_repeater'});
@@ -50,16 +44,34 @@ onEvent('recipes', event => {
     event.remove({output: 'create:rotation_speed_controller'});
     event.remove({output: 'create:sand_paper'});
     event.remove({output: 'create:sequenced_gearshift'});
-    event.remove({output: 'create:schematicannon'});
-    event.remove({output: 'create:schematic_and_quill'});
-    event.remove({output: 'create:schematic_table'});
     event.remove({output: 'create:smart_chute'});
     event.remove({output: 'create:smart_fluid_pipe'});
     event.remove({output: 'create:speedometer'});
     event.remove({output: 'create:stressometer'});
-    event.remove({output: 'create:wand_of_symmetry'});
     event.remove({output: 'create:zinc_nugget'});
     event.remove({output: 'create:zinc_ingot'});
+
+
+    event.remove({output: 'create:mechanical_arm'});
+    event.remove({output: 'create:mechanical_drill'});
+    event.remove({output: 'create:mechanical_crafter'});
+    event.remove({output: 'create:mechanical_harvester'});
+    event.remove({output: 'create:mechanical_plough'});
+    event.remove({output: 'create:mechanical_saw'});
+    event.remove({output: 'create:potato_cannon'});
+    event.remove({output: 'create:schematicannon'});
+    event.remove({output: 'create:schematic_and_quill'});
+    event.remove({output: 'create:schematic_table'});
+    event.remove({output: 'create:wand_of_symmetry'});
+    event.remove({output: 'create:display_link'});
+    event.remove({output: 'create:display_board'});
+
+    //Временно
+    event.remove({output: 'create:track'});
+    event.remove({output: 'create:railway_casing'});
+    event.remove({output: 'create:train_door'});
+    event.remove({output: 'create:train_trapdoor'});
+    event.remove({output: 'create:controls'});
 
     event.remove({output: 'create:cut_granite'});
     event.remove({output: 'create:cut_granite_stairs'});
@@ -363,6 +375,13 @@ onEvent('recipes', event => {
     event.remove({output: 'create:small_veridium_brick_slab'});
     event.remove({output: 'create:small_veridium_brick_wall'});
 
+    //Временно убираем, пока не придумаем, как внедрить роз кварц (мб из кварка)
+    event.remove({output: 'create:rose_quartz_lamp'});
+    event.remove({output: 'create:rose_quartz_block'});
+    event.remove({output: 'create:rose_quartz_tiles'});
+    event.remove({output: 'create:small_rose_quartz_tiles'});
+
+    event.remove({output: 'create:nixie_tube'});
     event.shaped('create:nixie_tube', [
         '   ',
         'TCT',
@@ -371,6 +390,7 @@ onEvent('recipes', event => {
         T: 'create:electron_tube', C: 'create:copper_casing'
     });
 
+    event.remove({output: 'create:crushing_wheel'});
     event.shaped('create:crushing_wheel', [
         'APA',
         'PSP',
@@ -379,6 +399,7 @@ onEvent('recipes', event => {
         A: 'create:andesite_alloy', P: '#minecraft:planks', S: '#forge:stone'
     });
 
+    event.remove({output: 'create:flywheel'});
     event.shaped('create:flywheel', [
         'PGP',
         'GAG',
@@ -387,11 +408,57 @@ onEvent('recipes', event => {
         A: 'create:andesite_alloy', P: '#minecraft:planks', G: 'minecraft:gold_ingot'
     });
 
-    event.shaped('create:furnace_engine', [
-        'SSG',
-        'SCI',
-        'SSG'
+
+    //заменить в будущем на рецепт от пресса (просто прессовать)
+    event.remove({output: 'create:sturdy_sheet'});
+    event.shaped('create:sturdy_sheet', [
+        ' P ',
+        'PIP',
+        ' P '
     ], {
-        C: 'create:copper_casing', G: 'minecraft:gold_ingot', I: 'minecraft:piston', S: 'create:golden_sheet'
+        P: 'create:powdered_obsidian', I: 'create:iron_sheet'
     });
+
+    
+    //Временно убираем, пока не появится законченные поезда
+
+    /*
+    //заменить в будущем на рецепт от пресса (просто прессовать)
+    event.shaped('create:railway_casing', [
+        'S',
+        'C',
+    ], {
+        S: 'create:sturdy_sheet', C: 'create:copper_casing'
+    });
+
+    //заменить в будущем на какой-то другой материал
+    event.shaped('create:train_door', [
+        'G',
+        'D',
+    ], {
+        D: 'minecraft:wooden_doors', G: 'create:golden_sheet'
+    });
+
+    //заменить в будущем на какой-то другой материал
+    event.shaped('create:train_trapdoor', [
+        'G',
+        'T',
+    ], {
+        T: 'minecraft:wooden_trapdoors', G: 'create:golden_sheet'
+    });
+
+    event.shaped('create:track', [
+        'R',
+        'S',
+    ], {
+        S: 'create:sleepers', R: 'minecraft:rail'
+    });
+
+    event.shaped('create:controls', [
+        'L',
+        'C',
+    ], {
+        C: 'create:railway_casing', L: 'minecraft:lever'
+    });
+    */
 })

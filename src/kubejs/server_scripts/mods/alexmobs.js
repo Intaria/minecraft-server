@@ -8,7 +8,6 @@ onEvent('recipes', event => {
     event.remove({output: 'alexsmobs:squid_grapple'});
     event.remove({output: 'alexsmobs:rocky_chestplate'});
     event.remove({output: 'alexsmobs:pupfish_locator'});
-    event.remove({output: 'alexsmobs:frontier_cap'});
 
     event.shaped('alexsmobs:sombrero', [
         ' S ',
@@ -18,6 +17,7 @@ onEvent('recipes', event => {
         P: 'minecraft:paper', R: 'supplementaries:rope', S: 'farmersdelight:straw'
     });
 
+    event.remove({output: 'alexsmobs:frontier_cap'});
     event.shaped('alexsmobs:frontier_cap', [
         ' F ',
         'FCF',

@@ -1,10 +1,10 @@
 onEvent('recipes', event => {
-    event.remove({output: 'ba_bt:platinum_ingot'});
     event.remove({output: 'ba_bt:land_chest'});
     event.remove({output: 'ba_bt:land_golem_chest'});
     event.remove({output: 'ba_bt:ocean_chest'});
     event.remove({output: 'ba_bt:ocean_golem_chest'});
 
+    event.remove({output: 'ba_bt:platinum_ingot'});
     event.shaped('ba_bt:platinum_ingot', [
         'SSS',
         'SSS',
@@ -12,11 +12,9 @@ onEvent('recipes', event => {
     ], {
         S: 'ba_bt:platinum_shard'
     });
-
-    event.shapeless('ba_bt:platinum_ingot', [
+    event.shapeless('9x ba_bt:platinum_ingot', [
         'ba_bt:platinum_block'
     ]);
-
     event.shaped('ba_bt:platinum_ingot', [
         'SSS',
         'SSS',
