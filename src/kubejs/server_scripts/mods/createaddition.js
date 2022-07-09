@@ -8,7 +8,6 @@ onEvent('recipes', event => {
     event.remove({output: 'createaddition:iron_wire'});
     event.remove({output: 'createaddition:gold_rod'});
     event.remove({output: 'createaddition:gold_wire'});
-    event.remove({output: 'createaddition:furnace_burner'});
     event.remove({output: 'createaddition:rolling_mill'});
     event.remove({output: 'createaddition:spool'});
     event.remove({output: 'createaddition:tesla_coil'});
