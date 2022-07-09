@@ -240,6 +240,16 @@ onEvent('recipes', event => {
         A: 'create:andesite_alloy', P: '#minecraft:planks', S: '#forge:stone'
     });
 
+    //временно, пока не вернули роз-кварц
+    event.remove({output: 'create:electron_tube'});
+    event.shaped('create:electron_tube', [
+        'G',
+        'R',
+        'S'
+    ], {
+        G: 'minecraft:glass', R: 'minecraft:redstone_torch', S: 'create:iron_sheet'
+    });
+
     //заменить в будущем на рецепт от пресса (просто прессовать)
     event.remove({output: 'create:sturdy_sheet'});
     event.shaped('create:sturdy_sheet', [
