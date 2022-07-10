@@ -3,7 +3,6 @@ onEvent('recipes', event => {
     event.remove({output: 'create:andesite_tunnel'});
     event.remove({output: 'create:attribute_filter'});
     event.remove({output: 'create:belt_connector'});
-    event.remove({output: 'create:blaze_burner'});
     event.remove({output: 'create:blaze_cake'});
     event.remove({output: 'create:blaze_cake_base'});
     event.remove({output: 'create:brass_hand'});
@@ -11,7 +10,6 @@ onEvent('recipes', event => {
     event.remove({output: 'create:brass_tunnel'});
     event.remove({output: 'create:crafter_slot_cover'});
     event.remove({output: 'create:deployer'});
-    event.remove({output: 'create:empty_blaze_burner'});
     event.remove({output: 'create:empty_schematic'});
     event.remove({output: 'create:extendo_grip'});
     event.remove({output: 'create:haunted_bell'});
@@ -311,7 +309,7 @@ onEvent('recipes', event => {
     event.shaped('create:copper_casing', [
         'SL',
     ], {
-        S: 'minecraft:copper_sheet', L: '#forge:stripped_logs',
+        S: 'create:copper_sheet', L: '#forge:stripped_logs',
     });
 
     event.remove({output: 'create:andesite_casing'});
