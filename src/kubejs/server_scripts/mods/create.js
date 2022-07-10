@@ -208,6 +208,9 @@ onEvent('recipes', event => {
     //Пока не появятся расцветки
     event.remove({output: 'create:tiled_glass'});
     event.remove({output: 'create:framed_glass'});
+    event.remove({output: 'create:framed_glass_pane'});
+    event.remove({output: 'create:horizontal_framed_glass_pane'});
+    event.remove({output: 'create:vertical_framed_glass_pane'});
     event.remove({output: 'create:horizontal_framed_glass'});
     event.remove({output: 'create:vertical_framed_glass'});
     event.remove({output: 'create:tiled_glass_pane'});
@@ -270,14 +273,14 @@ onEvent('recipes', event => {
     event.shaped('create:framed_glass_door', [
         'DG',
     ], {
-        D: 'minecraft:wooden_doors', G: 'minecraft:glass',
+        D: '#minecraft:wooden_doors', G: 'minecraft:glass',
     });
 
     event.remove({output: 'create:framed_glass_trapdoor'});
     event.shaped('create:framed_glass_trapdoor', [
         'TG',
     ], {
-        T: 'minecraft:wooden_trapdoors', G: 'minecraft:glass',
+        T: '#minecraft:wooden_trapdoors', G: 'minecraft:glass',
     });
 
     
@@ -286,7 +289,7 @@ onEvent('recipes', event => {
         'R',
         'S',
     ], {
-        S: 'create:sleepers', R: 'minecraft:rail',
+        S: '#create:sleepers', R: 'minecraft:rail',
     });
 
     event.remove({output: 'create:controls'});
@@ -295,5 +298,33 @@ onEvent('recipes', event => {
         'C',
     ], {
         L: 'minecraft:lever', C: 'create:railway_casing',
+    });
+
+    event.remove({output: 'create:brass_casing'});
+    event.shaped('create:brass_casing', [
+        'SL',
+    ], {
+        S: 'create:brass_sheet', L: '#forge:stripped_logs',
+    });
+
+    event.remove({output: 'create:copper_casing'});
+    event.shaped('create:copper_casing', [
+        'SL',
+    ], {
+        S: 'minecraft:copper_sheet', L: '#forge:stripped_logs',
+    });
+
+    event.remove({output: 'create:andesite_casing'});
+    event.shaped('create:andesite_casing', [
+        'AL',
+    ], {
+        A: 'create:andesite_alloy', L: '#forge:stripped_logs',
+    });
+
+    event.remove({output: 'create:railway_casing'});
+    event.shaped('create:railway_casing', [
+        'SL',
+    ], {
+        S: 'create:sturdy_sheet', L: '#forge:stripped_logs',
     });
 })

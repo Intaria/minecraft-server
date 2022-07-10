@@ -2,7 +2,6 @@ onEvent('recipes', event => {
     event.remove({output: 'createaddition:brass_rod'});
     event.remove({output: 'createaddition:copper_rod'});
     event.remove({output: 'createaddition:copper_wire'});
-    event.remove({output: 'createaddition:diamond_grit'});
     event.remove({output: 'createaddition:diamond_grit_sandpaper'});
     event.remove({output: 'createaddition:iron_rod'});
     event.remove({output: 'createaddition:iron_wire'});

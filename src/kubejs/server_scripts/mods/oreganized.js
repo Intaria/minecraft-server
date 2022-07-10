@@ -6,11 +6,11 @@ onEvent('recipes', event => {
     event.remove({output: 'oreganized:electrum_ingot'});
     //Сам рецепт под вопросом
     event.shaped('oreganized:electrum_ingot', [
-        'SSS',
-        'LDL',
-        'BBB'
+        ' S ',
+        'DLD',
+        ' B '
     ], {
-        S: 'oreganized:silver_ingot', B: 'create:brass_ingot', L: 'oreganized:lead_ingot', D: 'minecraft:diamond'
+        S: 'oreganized:silver_ingot', B: 'create:brass_ingot', L: 'oreganized:molten_lead_bucket', D: 'createaddition:diamond_grit'
     });
     event.shaped('oreganized:electrum_ingot', [
         'NNN',
