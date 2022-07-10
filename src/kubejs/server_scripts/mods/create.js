@@ -50,19 +50,13 @@ onEvent('recipes', event => {
     event.remove({output: 'create:display_link'});
     event.remove({output: 'create:display_board'});
 
-    //Временно
-    event.remove({output: 'create:track'});
-    event.remove({output: 'create:railway_casing'});
-    event.remove({output: 'create:train_door'});
-    event.remove({output: 'create:train_trapdoor'});
-    event.remove({output: 'create:controls'});
-
     //Временно убираем, пока не придумаем, как внедрить роз кварц (мб из кварка)
     event.remove({output: 'create:rose_quartz_lamp'});
     event.remove({output: 'create:rose_quartz_block'});
     event.remove({output: 'create:rose_quartz_tiles'});
     event.remove({output: 'create:small_rose_quartz_tiles'});
 
+    
     event.remove({output: 'create:cut_granite'});
     event.remove({output: 'create:cut_granite_stairs'});
     event.remove({output: 'create:cut_granite_slab'});
@@ -211,6 +205,16 @@ onEvent('recipes', event => {
     event.remove({output: 'create:small_tuff_brick_slab'});
     event.remove({output: 'create:small_tuff_brick_wall'});
 
+    //Пока не появятся расцветки
+    event.remove({output: 'create:tiled_glass'});
+    event.remove({output: 'create:framed_glass'});
+    event.remove({output: 'create:horizontal_framed_glass'});
+    event.remove({output: 'create:vertical_framed_glass'});
+    event.remove({output: 'create:tiled_glass_pane'});
+    event.remove({output: 'create:framed_tiled_glass'});
+    event.remove({output: 'create:horizontal_framed_tiled_glass'});
+    event.remove({output: 'create:vertical_framed_tiled_glass'});
+
     event.remove({output: 'create:brass_ingot'});
     event.shaped('create:brass_ingot', [
         'NNN',
@@ -260,16 +264,36 @@ onEvent('recipes', event => {
         P: 'create:powdered_obsidian', I: 'create:iron_sheet'
     });
 
-    
-    //Временно убираем, пока не появится законченные поезда
 
-    /*
-    //заменить в будущем на рецепт от пресса (просто прессовать)
-    event.shaped('create:railway_casing', [
+    //Временно, пока не добавят цветные варианты
+    event.remove({output: 'create:framed_glass_door'});
+    event.shaped('create:framed_glass_door', [
+        'DG',
+    ], {
+        D: 'minecraft:wooden_doors', G: 'minecraft:glass',
+    });
+
+    event.remove({output: 'create:framed_glass_trapdoor'});
+    event.shaped('create:framed_glass_trapdoor', [
+        'TG',
+    ], {
+        T: 'minecraft:wooden_trapdoors', G: 'minecraft:glass',
+    });
+
+    
+    event.remove({output: 'create:track'});
+    event.shaped('create:track', [
+        'R',
         'S',
+    ], {
+        S: 'create:sleepers', R: 'minecraft:rail',
+    });
+
+    event.remove({output: 'create:controls'});
+    event.shaped('create:controls', [
+        'L',
         'C',
     ], {
-        S: 'create:sturdy_sheet', C: 'create:copper_casing'
+        L: 'minecraft:lever', C: 'create:railway_casing',
     });
-    */
 })

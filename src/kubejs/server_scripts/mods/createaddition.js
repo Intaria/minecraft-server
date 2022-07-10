@@ -21,15 +21,6 @@ onEvent('recipes', event => {
         C: 'createaddition:connector', S: 'createaddition:gold_spool', G: 'create:golden_sheet', A: 'create:copper_casing', B: 'createaddition:capacitor'
     });
 
-    event.remove({output: 'createaddition:heater'});
-    event.shaped('createaddition:heater', [
-        ' C ',
-        'SBS',
-        'GAG'
-    ], {
-        C: 'createaddition:capacitor', S: 'createaddition:copper_spool', A: 'create:copper_sheet', G: 'minecraft:gold_ingot', B: 'minecraft:blaze_rod'
-    });
-
     event.remove({output: 'createaddition:copper_spool'});
     event.shaped('2x createaddition:copper_spool', [
         'CSC',
