@@ -1,7 +1,7 @@
 
 [General]
 	#Use the custom name list, editable in ./mods/villagernames/customnames.txt, seperated by a comma.
-	_useCustomNames = true
+	_useCustomNames = false
 	#Use the list of pre-defined female names when naming villagers.
 	_useFemaleNames = true
 	#Use the list of pre-defined male names when naming villagers.

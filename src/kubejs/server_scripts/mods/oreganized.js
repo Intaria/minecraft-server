@@ -12,6 +12,16 @@ onEvent('recipes', event => {
     ], {
         S: 'oreganized:silver_ingot', B: 'create:brass_ingot', L: 'oreganized:molten_lead_bucket', D: 'createaddition:diamond_grit'
     });
+    /*
+    event.recipes.createMixing('oreganized:electrum_ingot', [
+        'oreganized:silver_ingot',
+        'oreganized:silver_ingot',
+        'create:brass_ingot',
+        'create:brass_ingot',
+        'createaddition:diamond_grit',
+        'oreganized:lead_ingot',
+    ]).heated()
+    */
     event.shaped('oreganized:electrum_ingot', [
         'NNN',
         'NNN',
