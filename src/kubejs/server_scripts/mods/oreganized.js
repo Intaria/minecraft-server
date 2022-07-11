@@ -12,6 +12,7 @@ onEvent('recipes', event => {
     ], {
         S: 'oreganized:silver_ingot', B: 'create:brass_ingot', L: 'oreganized:molten_lead_bucket', D: 'createaddition:diamond_grit'
     });
+    //Вернуть, когда можно что-то будет делать с жидкой ртутью через механизмы
     /*
     event.recipes.createMixing('oreganized:electrum_ingot', [
         'oreganized:silver_ingot',
