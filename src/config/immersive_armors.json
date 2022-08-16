@@ -1,6 +1,11 @@
 {
   "hideSecondLayerUnderArmor": true,
   "enableEffects": true,
+  "enableEnchantmentGlint": true,
+  "hudClockX": -111,
+  "hudClockY": -20,
+  "hudCompassX": 95,
+  "hudCompassY": -20,
   "enabledArmors": {
     "prismarine": true,
     "steampunk": false,

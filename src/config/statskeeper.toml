@@ -69,3 +69,28 @@
 		#Items that increase or decrease current maximal health when used.
 		#Format: "modid:item = N" with N being the health amount. Appending ':' after a negative N will make an item bypass thresholds.
 		regenerativeItems = ["minecraft:nether_star = 1", "minecraft:enchanted_golden_apple = 1", "minecraft:dragon_egg = 1"]
+
+[toughasnails]
+
+	[toughasnails.thirst]
+		#Make the player keep thirst when respawning
+		keepThirst = true
+		#The lowest thirst value the player can have when respawning, must be used with keepThirst
+		#Range: 0 ~ 20
+		lowestThirst = 6
+
+	[toughasnails.hydration]
+		#Make the player keep hydration when respawning
+		keepHydration = true
+		#The lowest hydration value the player can have when respawning, must be used with keepHydration
+		#Range: 0 ~ 20
+		lowestHydration = 6
+		#Make the player keep hydration when respawning only when thirst is full. Only usable with the other two options
+		keepHydrationWithFullThirst = true
+
+	[toughasnails.temperature]
+		#Make the player keep their temperature when respawning
+		keepTemperature = false
+		#Keep temperature between two levels
+		#Values: [ICY, COLD, NEUTRAL, WARM, HOT]
+		clampTemperatureLevels = ["COLD", "WARM"]

@@ -210,14 +210,16 @@
 	[spawns.structures]
 
 		[spawns.structures.way_sign]
-			#Average distance apart in chunks between spawn attempts
-			#Range: 0 ~ 1001
-			average_distance = 1001
-			#Minimum distance apart in chunks between spawn attempts. 1001 to disable them entirely
-			#Range: 0 ~ 1001
+			#Average distance apart in chunks between spawn attempts. Has to be larger than minimum_distance of course
+			#Range: 0 ~ 1000
+			average_distance = 1000
+			#Minimum distance apart in chunks between spawn attempts
+			#Range: 0 ~ 1000
 			minimum_distance = 0
 			#With this option road signs will display the distance to the structure that they are pointing to
 			show_distance_text = true
+			#Entirely disables them from spawning
+			enabled = false
 
 		[spawns.structures.wild_flax]
 			enabled = true
@@ -445,4 +447,3 @@
 [general]
 	#Turn this on to disable any interaction on blocks placed by other players. This affects item shelves, signs, flower pots, and boards. Useful for protected servers. Note that it will affect only blocks placed after this is turned on and such blocks will keep being protected after this option is disabled
 	server_protection = false
-
