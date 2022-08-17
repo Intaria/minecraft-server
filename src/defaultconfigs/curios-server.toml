@@ -34,7 +34,7 @@
 	identifier = "ring"
 	override = true
 	visible = true
-	size = 2
+	size = 1
 
 [[curiosSettings]]
 	identifier = "feet"
