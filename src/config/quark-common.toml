@@ -1428,7 +1428,7 @@
 					"Is Blacklist" = true
 
 [client]
-	"Variant Animal Textures" = false
+	"Variant Animal Textures" = true
 	"Usage Ticker" = false
 	"Microcrafting Helper" = false
 	"Improved Tooltips" = false
@@ -1443,15 +1443,15 @@
 		"Enable Cow" = true
 		"Enable Pig" = true
 		"Enable Chicken" = true
-		"Enable Shiny Rabbit" = true
-		"Enable Shiny Llama" = true
-		"Enable Shiny Dolphin" = true
-		"Enable L G B T Bees" = true
+		"Enable Shiny Rabbit" = false
+		"Enable Shiny Llama" = false
+		"Enable Shiny Dolphin" = false
+		"Enable L G B T Bees" = false
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
 		#If a shiny animal should emit occasional sparkles.
-		"Shiny Sparkles" = true
+		"Shiny Sparkles" = false
 
 	[client.usage_ticker]
 		#Switch the armor display to the off hand side and the hand display to the main hand side
