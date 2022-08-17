@@ -31,7 +31,7 @@
 	sconce = true
 	sconce_green = false
 	cage = true
-	item_shelf = true
+	item_shelf = false
 	sconce_lever = true
 	cog_block = false
 	globe = true
