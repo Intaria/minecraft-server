@@ -16,7 +16,7 @@
 	[common.leatherBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 9
+		inventorySlotCount = 27
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
 		upgradeSlotCount = 0
@@ -25,7 +25,7 @@
 	[common.ironBackpack]
 		#Number of inventory slots in the backpack
 		#Range: 1 ~ 144
-		inventorySlotCount = 18
+		inventorySlotCount = 27
 		#Number of upgrade slots in the backpack
 		#Range: 0 ~ 10
 		upgradeSlotCount = 0
