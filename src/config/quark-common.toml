@@ -395,7 +395,7 @@
 	"Hoe Harvesting" = true
 	"Glass Shard" = false
 	"Enhanced Ladders" = false
-	Emotes = true
+	Emotes = false
 	"Dragon Scales" = false
 	"Double Door Opening" = true
 	"Compasses Work Everywhere" = true

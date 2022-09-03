@@ -11,10 +11,10 @@ onEvent('recipes', event => {
 
     event.shaped('alexsmobs:sombrero', [
         ' S ',
-        'PRP',
+        'CRC',
         'S S'
     ], {
-        P: 'minecraft:paper', R: 'supplementaries:rope', S: 'farmersdelight:straw'
+        C: 'cottonly:ball', R: 'supplementaries:rope', S: 'farmersdelight:straw'
     });
 
     event.remove({output: 'alexsmobs:frontier_cap'});
@@ -27,8 +27,8 @@ onEvent('recipes', event => {
     });
 
     event.shaped('alexsmobs:fedora', [
-        '   ',
-        'FLF',
+        ' L ',
+        'LLL',
         'LRL'
     ], {
         R: 'supplementaries:rope', L: 'minecraft:leather', F: 'alexsmobs:bison_fur'
