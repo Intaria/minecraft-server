@@ -13,3 +13,9 @@ onEvent('recipes', event => {
         R: 'supplementaries:rope'
     });
 })
+
+onEvent("lootjs", (event) => {
+    event
+        .addLootTypeModifier(LootType.CHEST)
+        .removeLoot("farmersdelight:rope");
+});

@@ -5,6 +5,7 @@ onEvent('recipes', event => {
     event.remove({output: 'alexsmobs:chorus_on_a_stick'});
     event.remove({output: 'alexsmobs:rainbow_glass'});
     event.remove({output: 'alexsmobs:falconry_hood'});
+    event.remove({output: 'alexsmobs:falconry_glove'});
     event.remove({output: 'alexsmobs:squid_grapple'});
     event.remove({output: 'alexsmobs:rocky_chestplate'});
     event.remove({output: 'alexsmobs:pupfish_locator'});
@@ -32,5 +33,13 @@ onEvent('recipes', event => {
         'LRL'
     ], {
         R: 'supplementaries:rope', L: 'minecraft:leather', F: 'alexsmobs:bison_fur'
+    });
+
+    event.shaped('alexsmobs:falconry_glove', [
+        ' L ',
+        'LLL',
+        ' F '
+    ], {
+        L: 'minecraft:leather', F: 'alexsmobs:bison_fur'
     });
 })
