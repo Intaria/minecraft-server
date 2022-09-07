@@ -476,7 +476,7 @@
 			max_group_size = 4
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
-			extra_rarity = 0.4
+			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
 			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
@@ -534,7 +534,7 @@
 			max_group_size = 3
 			#Probability of a spawn attempt succeeding. 1 for normal spawning, 0 will prevent spawning. Used to make mobs extra rare.
 			#Range: 0.0 ~ 1.0
-			extra_rarity = 0.5
+			extra_rarity = 0.7
 			#Names of dimensions this mob can spawn in
 			dimensions = ["minecraft:overworld"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.

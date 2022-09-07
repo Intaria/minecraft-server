@@ -1,14 +1,14 @@
 onEvent('recipes', event => {
-    event.remove({output: 'create:andesite_funnel'});
-    event.remove({output: 'create:andesite_tunnel'});
-    event.remove({output: 'create:attribute_filter'});
-    event.remove({output: 'create:belt_connector'});
+    event.remove({output: 'create:mechanical_crafter'});
+    event.remove({output: 'create:crafter_slot_cover'});   
+
+    event.remove({output: 'create:display_link'});
+    event.remove({output: 'create:display_board'});
+    event.remove({output: 'create:potato_cannon'});
+
     event.remove({output: 'create:blaze_cake'});
     event.remove({output: 'create:blaze_cake_base'});
     event.remove({output: 'create:brass_hand'});
-    event.remove({output: 'create:brass_funnel'});
-    event.remove({output: 'create:brass_tunnel'});
-    event.remove({output: 'create:crafter_slot_cover'});
     event.remove({output: 'create:deployer'});
     event.remove({output: 'create:empty_schematic'});
     event.remove({output: 'create:extendo_grip'});
@@ -19,41 +19,25 @@ onEvent('recipes', event => {
 
     //Слишком много автоматизации
     event.remove({output: 'create:polished_rose_quartz'});
-    event.remove({output: 'create:precision_mechanism'});
     event.remove({output: 'create:peculiar_bell'});
-    event.remove({output: 'create:pulse_repeater'});
-    event.remove({output: 'create:pulse_extender'});
-    event.remove({output: 'create:redstone_link'});
     event.remove({output: 'create:red_sand_paper'});
     event.remove({output: 'create:rose_quartz'});
-    event.remove({output: 'create:rotation_speed_controller'});
     event.remove({output: 'create:sand_paper'});
-    event.remove({output: 'create:sequenced_gearshift'});
-    event.remove({output: 'create:smart_chute'});
-    event.remove({output: 'create:speedometer'});
-    event.remove({output: 'create:stressometer'});
 
-
-    event.remove({output: 'create:mechanical_arm'});
     event.remove({output: 'create:mechanical_drill'});
-    event.remove({output: 'create:mechanical_crafter'});
     event.remove({output: 'create:mechanical_harvester'});
     event.remove({output: 'create:mechanical_plough'});
     event.remove({output: 'create:mechanical_saw'});
-    event.remove({output: 'create:potato_cannon'});
     event.remove({output: 'create:schematicannon'});
     event.remove({output: 'create:schematic_and_quill'});
     event.remove({output: 'create:schematic_table'});
     event.remove({output: 'create:wand_of_symmetry'});
-    event.remove({output: 'create:display_link'});
-    event.remove({output: 'create:display_board'});
 
     //Временно убираем, пока не придумаем, как внедрить роз кварц (мб из кварка)
     event.remove({output: 'create:rose_quartz_lamp'});
     event.remove({output: 'create:rose_quartz_block'});
     event.remove({output: 'create:rose_quartz_tiles'});
     event.remove({output: 'create:small_rose_quartz_tiles'});
-
     
     event.remove({output: 'create:cut_granite'});
     event.remove({output: 'create:cut_granite_stairs'});
@@ -290,14 +274,6 @@ onEvent('recipes', event => {
         S: '#create:sleepers', R: 'minecraft:rail',
     });
 
-    event.remove({output: 'create:controls'});
-    event.shaped('create:controls', [
-        'L',
-        'C',
-    ], {
-        L: 'minecraft:lever', C: 'create:railway_casing',
-    });
-
     event.remove({output: 'create:brass_casing'});
     event.shaped('create:brass_casing', [
         'SL',
@@ -324,5 +300,14 @@ onEvent('recipes', event => {
         'SL',
     ], {
         S: 'create:sturdy_sheet', L: '#forge:stripped_logs',
+    });
+
+    event.remove({output: 'create:precision_mechanism'});
+    event.shaped('create:precision_mechanism', [
+        ' S ',
+        'NGN',
+        ' L ',
+    ], {
+        G: 'create:golden_sheet', S: 'create:cogwheel', L: 'create:large_cogwheel', N: 'minecraft:iron_nugget',
     });
 })
