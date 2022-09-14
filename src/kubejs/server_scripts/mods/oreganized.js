@@ -33,4 +33,16 @@ onEvent('recipes', event => {
     event.shapeless('9x oreganized:electrum_ingot', [
         'oreganized:electrum_block'
     ]);
+
+    event.remove({output: 'oreganized:lead_ingot'});
+    event.shaped('oreganized:lead_ingot', [
+        'NNN',
+        'NNN',
+        'NNN'
+    ], {
+        N: 'oreganized:lead_nugget'
+    });
+    event.shapeless('9x oreganized:lead_ingot', [
+        'oreganized:lead_block'
+    ]);
 })
