@@ -23,6 +23,7 @@ onEvent('recipes', event => {
         'oreganized:lead_ingot',
     ]).heated()
     */
+    
     event.shaped('oreganized:electrum_ingot', [
         'NNN',
         'NNN',
@@ -30,6 +31,7 @@ onEvent('recipes', event => {
     ], {
         N: 'oreganized:electrum_nugget'
     });
+    
     event.shapeless('9x oreganized:electrum_ingot', [
         'oreganized:electrum_block'
     ]);
@@ -42,6 +44,7 @@ onEvent('recipes', event => {
     ], {
         N: 'oreganized:lead_nugget'
     });
+    
     event.shapeless('9x oreganized:lead_ingot', [
         'oreganized:lead_block'
     ]);

@@ -29,7 +29,7 @@ onEvent('recipes', event => {
 
     event.shaped('alexsmobs:fedora', [
         ' L ',
-        'LLL',
+        'LFL',
         'LRL'
     ], {
         R: 'supplementaries:rope', L: 'minecraft:leather', F: 'alexsmobs:bison_fur'
