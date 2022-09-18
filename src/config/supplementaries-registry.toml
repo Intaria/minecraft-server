@@ -85,6 +85,7 @@
 	lapis_bricks = true
 	relayer = false
 	crystal_display = true
+	candle_holder = true
 
 [items]
 	flute = true
@@ -100,3 +101,4 @@
 	rope_arrow = false
 	bomb = false
 	pancake = true
+	quiver = false

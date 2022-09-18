@@ -310,4 +310,13 @@ onEvent('recipes', event => {
     ], {
         G: 'create:golden_sheet', S: 'create:cogwheel', L: 'create:large_cogwheel', N: 'minecraft:iron_nugget',
     });
+
+    //Убираем и добавляем заново, чтобы отключить рецепты со сторонних модификаций
+    event.remove({output: 'create:super_glue'});
+    event.shaped('create:super_glue', [
+        'SI',
+        'NS',
+    ], {
+        S: '#forge:slimeballs', I: '#forge:plates/iron', N: '#forge:nuggets/iron',
+    });
 })
