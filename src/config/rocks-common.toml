@@ -28,8 +28,8 @@
 	pinecone = true
 	geyser = true
 	nether_geyser = true
-	seashell = true
+	seashell = false
 	starfish = true
-	underwater_seashell = true
+	underwater_seashell = false
 	underwater_starfish = true
 
