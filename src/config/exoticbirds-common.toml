@@ -285,7 +285,7 @@
 	[entity.penguin]
 		#Penguin spawn rate (0 = disabled; 1 = rare; 100+ = common).
 		#Range: > 0
-		spawnRatePenguin = 6
+		spawnRatePenguin = 0
 		#Penguin minimum group size.
 		#Range: 1 ~ 50
 		spawnSizeMinPenguin = 2
