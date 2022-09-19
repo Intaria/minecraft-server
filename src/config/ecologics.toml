@@ -31,7 +31,7 @@
 	#Range: 0 ~ 1000
 	penguinSpawnWeight = 2
 	#Generate thin ice patches in icy biomes
-	generateThinIcePatches = true
+	generateThinIcePatches = false
 	#Thin ice patch count. Higher number = more frequent.
 	#Range: 0 ~ 256
 	thinIcePatchCount = 15
