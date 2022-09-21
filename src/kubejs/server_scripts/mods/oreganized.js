@@ -23,7 +23,7 @@ onEvent('recipes', event => {
         'oreganized:lead_ingot',
     ]).heated()
     */
-    
+
     event.shaped('oreganized:electrum_ingot', [
         'NNN',
         'NNN',
@@ -36,7 +36,18 @@ onEvent('recipes', event => {
         'oreganized:electrum_block'
     ]);
 
+    event.smelting('oreganized:silver_ingot', 'create:crushed_silver_ore')
+    event.blasting('oreganized:silver_ingot', 'create:crushed_silver_ore')
+
     event.remove({output: 'oreganized:lead_ingot'});
+    event.smelting('oreganized:lead_ingot', 'oreganized:raw_lead')
+    event.blasting('oreganized:lead_ingot', 'oreganized:raw_lead')
+    event.smelting('oreganized:lead_ingot', 'oreganized:lead_ore')
+    event.blasting('oreganized:lead_ingot', 'oreganized:lead_ore')
+    event.smelting('oreganized:lead_ingot', 'oreganized:deepslate_lead_ore')
+    event.blasting('oreganized:lead_ingot', 'oreganized:deepslate_lead_ore')
+    event.smelting('oreganized:lead_ingot', 'create:crushed_lead_ore')
+    event.blasting('oreganized:lead_ingot', 'create:crushed_lead_ore')
     event.shaped('oreganized:lead_ingot', [
         'NNN',
         'NNN',
