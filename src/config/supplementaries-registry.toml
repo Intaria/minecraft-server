@@ -73,7 +73,7 @@
 	ash = true
 	ash_bricks = true
 	doormat = true
-	flower_box = true
+	flower_box = false
 	blackstone_tile = true
 	globe_sepia = true
 	present = true
