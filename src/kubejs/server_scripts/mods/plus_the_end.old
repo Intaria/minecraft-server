@@ -1,5 +1,5 @@
 //МБ в будущем выпилить что-то еще
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     event.remove({output: 'plus_the_end:endronium_sword'});
     event.remove({output: 'plus_the_end:endronium_pickaxe'});
     event.remove({output: 'plus_the_end:endronium_shovel'});

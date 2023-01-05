@@ -1,4 +1,4 @@
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     event.remove({output: 'createaddition:brass_rod'});
     event.remove({output: 'createaddition:copper_rod'});
     event.remove({output: 'createaddition:copper_wire'});

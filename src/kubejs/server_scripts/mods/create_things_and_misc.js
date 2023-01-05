@@ -1,4 +1,4 @@
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     //Убрал, пока выглядит коряво
     event.remove({output: 'create_things_and_misc:speed_25'});
     event.remove({output: 'create_things_and_misc:speed_50'});

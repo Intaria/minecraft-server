@@ -1,3 +1,3 @@
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     event.remove({output: 'minecraft:elytra'});
 })

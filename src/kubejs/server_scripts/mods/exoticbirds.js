@@ -1,5 +1,5 @@
 //МБ в будущем выпилить что-то еще
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     event.remove({output: 'exoticbirds:bird_book'});
     event.remove({output: 'exoticbirds:phoenix_egg'});
     event.remove({output: 'exoticbirds:hummingbird_feeder'});

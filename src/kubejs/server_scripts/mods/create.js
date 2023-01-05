@@ -1,4 +1,4 @@
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     event.remove({output: 'create:mechanical_crafter'});
     event.remove({output: 'create:crafter_slot_cover'});   
 

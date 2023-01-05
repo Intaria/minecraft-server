@@ -1,4 +1,4 @@
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     event.remove({output: 'another_furniture:white_stool'});
     event.remove({output: 'another_furniture:orange_stool'});
     event.remove({output: 'another_furniture:magenta_stool'});

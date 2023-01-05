@@ -1,4 +1,4 @@
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     event.remove({output: 'beautify:rope'});
 
     event.remove({output: 'beautify:lamp_candleabra'});

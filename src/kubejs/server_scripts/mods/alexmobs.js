@@ -1,5 +1,5 @@
 //МБ в будущем выпилить что-то еще
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     event.remove({output: 'alexsmobs:animal_dictionary'});
     event.remove({output: 'alexsmobs:centipede_leggings'});
     event.remove({output: 'alexsmobs:chorus_on_a_stick'});

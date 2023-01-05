@@ -1,5 +1,5 @@
 //МБ в будущем выпилить что-то еще
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     event.remove({output: 'oreganized:silver_mirror'});
     event.remove({output: 'oreganized:bush_hammer'});
 

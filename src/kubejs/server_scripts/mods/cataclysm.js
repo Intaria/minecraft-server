@@ -1,4 +1,4 @@
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     event.remove({output: 'cataclysm:monstrous_helm'});
 
     event.remove({output: 'cataclysm:obsidian_explosion_trap_bricks'});

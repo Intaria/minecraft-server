@@ -1,4 +1,4 @@
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     event.remove({output: 'aquaculture:fish_fillet_cooked'});
     event.remove({output: 'aquaculture:fish_fillet_raw'});
     event.remove({output: 'aquaculture:sushi'});

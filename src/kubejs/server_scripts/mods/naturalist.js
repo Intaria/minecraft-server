@@ -1,4 +1,4 @@
-onEvent('recipes', event => {
+ServerEvents.recipes(event => {   
     event.remove({output: 'naturalist:teddy_bear'});
     event.remove({output: 'naturalist:cooked_venison'});
     
