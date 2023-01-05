@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'alexsmobs:ghostly_pickaxe'});
     event.remove({output: 'alexsmobs:tendon_whip'});
     event.remove({output: 'alexsmobs:unsettling_kimono'});
+    event.remove({output: 'alexsmobs:sculk_boomer'});
 
     //temporary:
     event.remove({output: 'alexsmobs:transmutation_table'});
