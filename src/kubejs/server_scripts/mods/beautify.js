@@ -20,7 +20,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'beautify:lamp_candleabra_yellow'});
 })
 
-onEvent("lootjs", (event) => {
+ LootJS.modifiers((event) => {
     event
         .addLootTypeModifier(LootType.CHEST)
         .removeLoot("beautify:rope");

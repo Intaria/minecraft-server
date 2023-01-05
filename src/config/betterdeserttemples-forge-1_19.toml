@@ -5,14 +5,6 @@
 	## General settings.
 	###########################################################################################################
 	["YUNG's Better Desert Temples".General]
-		# The minimum y-value at which the desert temple can spawn.
-		# Default: 61
-		#
-		"Min Start Y" = 61
-		# The maximum y-value at which the desert temple can spawn.
-		# Default: 200
-		#
-		"Max Start Y" = 200
 		# Whether or not vanilla desert pyramids should be disabled.
 		# Default: true
 		#

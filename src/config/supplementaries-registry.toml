@@ -11,6 +11,8 @@
 	custom_configured_screen = false
 	#Save generated resources to disk in a 'debug' folder in your game directory. Mainly for debug purposes but can be used to generate assets in all wood types for your mods :0
 	debug_save_dynamic_pack = false
+	#Allows generated assets to depend on installed resource and data packs. This means that if for example you have a texture pack that changes the planks texture all generated signs textures will be based off that one instedDisable to have it only use vanilla assets
+	pack_dependant_assets = true
 
 [blocks]
 	planter = true
@@ -53,11 +55,9 @@
 	netherite_trapdoor = true
 	lock_block = true
 	flax = true
-	rope = true
 	pulley_block = true
 	fodder = true
 	crimson_lantern = true
-	magma_cream_block = true
 	daub = true
 	wattle_and_daub = true
 	timber_frame = true
@@ -86,6 +86,7 @@
 	relayer = false
 	crystal_display = true
 	candle_holder = true
+	enderman_head = false
 
 [items]
 	flute = true

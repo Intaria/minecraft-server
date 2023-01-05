@@ -24,15 +24,4 @@ ServerEvents.recipes(event => {
     event.remove({output: 'create_things_and_misc:vibration_mechanism'});
     event.remove({output: 'create_things_and_misc:mending_rune'});
 
-    event.remove({output: 'create_things_and_misc:card_scripter'});
-    event.shaped('create_things_and_misc:card_scripter', [
-        'KBD',
-        'CMC',
-    ], {
-        K: 'minecraft:dried_kelp',
-        B: 'create:brass_block',
-        D: 'supplementaries:crystal_display',
-        C: 'create:brass_casing',
-        M: 'create:precision_mechanism',
-    });
 })

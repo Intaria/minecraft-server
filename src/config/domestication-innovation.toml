@@ -25,6 +25,8 @@
 	#the spawn weight of the pet store in villages, set to 0 to disable it entirely
 	#Range: 0 ~ 1000
 	petstore_village_weight = 0
+	#true if frogs are fully tameable (rabbit must be tamed with spider eyes)
+	tameable_frog = true
 
 [loot]
 	#percent chance of woodland mansion loot table containing sinister carrot:
@@ -42,6 +44,14 @@
 	#percent chance of mineshaft loot table containing Ore Scenting book:
 	#Range: 0.0 ~ 1.0
 	ore_scenting_loot_chance = 0.1
+	#true if pet curse enchantments should only appear in loot, and not the enchanting table.
+	pet_curse_enchantments_loot_only = true
+	#percent chance of ancient city loot table containing Muffled book:
+	#Range: 0.0 ~ 1.0
+	muffled_loot_chance = 0.19
+	#percent chance of nether fortress loot table containing Blazing Protection book:
+	#Range: 0.0 ~ 1.0
+	blazing_protection_loot_chance = 0.2
 
 [enchantments]
 	#true if health boost enchant is enabled, false if disabled
@@ -106,4 +116,11 @@
 	blight_curse_enabled = false
 	#true if immaturity curse enchant is enabled, false if disabled
 	immaturity_curse_enabled = true
-
+	#true if muffled enchant is enabled, false if disabled
+	muffled_enabled = true
+	#true if blazing protection enchant is enabled, false if disabled
+	blazing_protection_enabled = true
+	#true if healing aura enchant is enabled, false if disabled
+	healing_aura_enabled = true
+	#true if rejuvenation enchant is enabled, false if disabled
+	rejuvenation_enabled = true

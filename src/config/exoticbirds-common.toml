@@ -450,7 +450,7 @@
 	[entity.bluejay]
 		#Blue jay spawn rate (0 = disabled; 1 = rare; 100+ = common).
 		#Range: > 0
-		spawnRateBluejay = 12
+		spawnRateBluejay = 0
 		#Bluejay minimum group size.
 		#Range: 1 ~ 50
 		spawnSizeMinBluejay = 2

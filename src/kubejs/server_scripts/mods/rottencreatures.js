@@ -4,7 +4,7 @@ ServerEvents.recipes(event => {
 })
 
 
-onEvent("lootjs", (event) => {
+ LootJS.modifiers((event) => {
     event
         .addEntityLootModifier("rottencreatures:dead_beard")
         .removeLoot("rottencreatures:tnt_barrel");

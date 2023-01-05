@@ -10,6 +10,8 @@ ServerEvents.recipes(event => {
     event.remove({output: 'createaddition:rolling_mill'});
     event.remove({output: 'createaddition:spool'});
     event.remove({output: 'createaddition:tesla_coil'});
+    event.remove({output: 'createaddition:barbed_wire'});
+    event.remove({output: 'createaddition:straw'});
 
     event.remove({output: 'createaddition:accumulator'});
     event.shaped('createaddition:accumulator', [

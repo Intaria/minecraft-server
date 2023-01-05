@@ -1,4 +1,4 @@
-onEvent("lootjs", (event) => {
+ LootJS.modifiers((event) => {
     event
         .addLootTypeModifier(LootType.CHEST)
         .removeLoot("artifacts:eternal_steak")

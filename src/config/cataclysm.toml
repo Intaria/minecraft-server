@@ -84,4 +84,13 @@
 	#Ignis's DamageCap
 	#Range: 0 ~ 1000000
 	IgnisDamageCap = 20
+	#Ignis's cracked block breaking ignore the MobGriefing
+	IgnisBlockBreaking = false
 
+[revenant]
+	#Revenant's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	RevenantHealthMultiplier = 1.0
+	#Revenant's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	RevenantDamageMultiplier = 1.0

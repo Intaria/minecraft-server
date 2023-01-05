@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
     });
 })
 
-onEvent("lootjs", (event) => {
+ LootJS.modifiers((event) => {
     event
         .addLootTypeModifier(LootType.CHEST)
         .removeLoot("farmersdelight:rope");

@@ -9,6 +9,15 @@ ServerEvents.recipes(event => {
     event.remove({output: 'alexsmobs:squid_grapple'});
     event.remove({output: 'alexsmobs:rocky_chestplate'});
     event.remove({output: 'alexsmobs:pupfish_locator'});
+    event.remove({output: 'alexsmobs:stink_ray'});
+    event.remove({output: 'alexsmobs:banana_slug_slime'});
+    event.remove({output: 'alexsmobs:banana_slug_slime_block'});
+    event.remove({output: 'alexsmobs:ghostly_pickaxe'});
+    event.remove({output: 'alexsmobs:tendon_whip'});
+    event.remove({output: 'alexsmobs:unsettling_kimono'});
+
+    //temporary:
+    event.remove({output: 'alexsmobs:transmutation_table'});
 
     event.shaped('alexsmobs:sombrero', [
         ' S ',
@@ -43,3 +52,10 @@ ServerEvents.recipes(event => {
         L: 'minecraft:leather', F: 'alexsmobs:bison_fur'
     });
 })
+
+
+ LootJS.modifiers((event) => {  
+    event
+        .addEntityLootModifier("alexsmobs:underminer")
+        .removeLoot("alexsmobs:ghostly_pickaxe");
+});

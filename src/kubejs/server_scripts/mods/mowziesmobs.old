@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
     });
 })
 
-onEvent("lootjs", (event) => {
+ LootJS.modifiers((event) => {
     //TODO: Временное решение
     event
         .addEntityLootModifier("mowziesmobs:barako")
