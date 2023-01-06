@@ -1,0 +1,12 @@
+//МБ в будущем выпилить что-то еще
+ServerEvents.recipes(event => {   
+    event.remove({output: 'ogres:ogre_armor_helmet'});
+    event.remove({output: 'ogres:ogre_armor_leggings'});
+    event.remove({output: 'ogres:ogre_armor_boots'});
+    event.remove({output: 'ogres:ogre_armor_chestplate'});
+    event.remove({output: 'ogres:ogre_shovel'});
+    event.remove({output: 'ogres:ogre_pickaxe'});
+    event.remove({output: 'ogres:ogre_axe'});
+    event.remove({output: 'ogres:ogre_sword'});
+    event.remove({output: 'ogres:ogre_hoe'});
+})
