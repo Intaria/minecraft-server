@@ -20,6 +20,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'vinery:grass_slab'});
     event.remove({output: 'vinery:stackable_log'});
     event.remove({output: 'vinery:faucet'});
+    event.remove({output: 'vinery:apple_crate'});
 
     event.remove({output: 'vinery:vinemaker_apron'});
     event.remove({output: 'vinery:vinemaker_gloves'});
