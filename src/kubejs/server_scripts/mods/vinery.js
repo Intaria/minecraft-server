@@ -21,6 +21,13 @@ ServerEvents.recipes(event => {
     event.remove({output: 'vinery:stackable_log'});
     event.remove({output: 'vinery:faucet'});
     event.remove({output: 'vinery:apple_crate'});
+    event.remove({output: 'vinery:dough'});
+    event.remove({output: 'vinery:chocolate_bread'});
+    event.remove({output: 'vinery:toast'});
+    event.remove({output: 'vinery:donut'});
+    event.remove({output: 'vinery:milk_bread'});
+    event.remove({output: 'vinery:bread_slice'});
+    event.remove({output: 'vinery:crusty_bread'});
 
     event.remove({output: 'vinery:vinemaker_apron'});
     event.remove({output: 'vinery:vinemaker_gloves'});

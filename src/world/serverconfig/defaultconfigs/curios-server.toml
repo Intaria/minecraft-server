@@ -1,0 +1,44 @@
+
+#List of curio slot type settings
+[[curiosSettings]]
+	identifier = "head"
+	visible = true
+	override = true
+	size = 1
+
+[[curiosSettings]]
+	identifier = "necklace"
+	visible = true
+	override = true
+	size = 1
+
+[[curiosSettings]]
+	identifier = "back"
+	override = true
+	visible = true
+	size = 1
+
+[[curiosSettings]]
+	identifier = "hands"
+	override = true
+	visible = true
+	size = 1
+
+[[curiosSettings]]
+	identifier = "belt"
+	override = true
+	visible = true
+	size = 1
+
+[[curiosSettings]]
+	identifier = "ring"
+	override = true
+	visible = true
+	size = 1
+
+[[curiosSettings]]
+	identifier = "feet"
+	override = true
+	visible = true
+	size = 1
+

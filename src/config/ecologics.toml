@@ -49,7 +49,7 @@
 #Lush Caves Update
 [lush_caves]
 	#Vanilla Azalea trees will have azalea logs instead of oak logs
-	replaceAzaleaTree = false
+	replaceAzaleaTree = true
 	#Generate surface moss in lush cave biomes
 	generateSurfaceMoss = true
 

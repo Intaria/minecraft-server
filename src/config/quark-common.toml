@@ -604,7 +604,7 @@
 	"Blossom Trees" = true
 	"Big Stone Clusters" = false
 	"No More Lava Pockets" = true
-	"Azalea Wood" = true
+	"Azalea Wood" = false
 
 	[world.spiral_spires]
 		Rarity = 200

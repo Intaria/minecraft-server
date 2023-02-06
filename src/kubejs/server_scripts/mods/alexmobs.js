@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
 })
 
 
- LootJS.modifiers((event) => {  
+LootJS.modifiers((event) => {  
     event
         .addEntityLootModifier("alexsmobs:underminer")
         .removeLoot("alexsmobs:ghostly_pickaxe");

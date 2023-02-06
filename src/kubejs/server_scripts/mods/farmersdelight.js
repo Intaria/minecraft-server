@@ -2,6 +2,7 @@
 ServerEvents.recipes(event => {   
     event.remove({output: 'farmersdelight:rope'});
     event.remove({output: 'farmersdelight:safety_net'});
+    event.remove({output: 'farmersdelight:wheat_dough'});
 })
 
 ServerEvents.recipes(event => {   
