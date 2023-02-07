@@ -1,0 +1,17 @@
+modname:sootychimneys
+
+texture:id=bricks,filename=assets/minecraft/textures/block/bricks.png,xcount=1,ycount=1
+texture:id=brick_chimney_full,filename=assets/sootychimneys/textures/block/brick_chimney_full.png,xcount=1,ycount=1
+texture:id=brick_chimney_side,filename=assets/sootychimneys/textures/block/brick_chimney_side.png,xcount=1,ycount=1
+texture:id=stone_brick_chimney,filename=assets/sootychimneys/textures/block/stone_brick_chimney.png,xcount=1,ycount=1
+texture:id=dirty_stone_brick_chimney,filename=assets/sootychimneys/textures/block/dirty_stone_brick_chimney.png,xcount=1,ycount=1
+texture:id=terracotta_chimney,filename=assets/sootychimneys/textures/block/terracotta_chimney.png,xcount=1,ycount=1
+texture:id=copper_chimney,filename=assets/sootychimneys/textures/block/copper_chimney.png,xcount=1,ycount=1
+block:id=%brick_chimney,patch0=0:bricks,patch1=0:brick_chimney_full,patch2=0:brick_chimney_side,transparency=TRANSPARENT,stdrot=true
+block:id=%dirty_brick_chimney,patch0=0:brick_chimney_side,patch1=0:brick_chimney_full,patch2=0:bricks,transparency=TRANSPARENT,stdrot=true
+block:id=%stone_brick_chimney,patch0=0:stone_brick_chimney,patch1=0:dirty_stone_brick_chimney,transparency=TRANSPARENT,stdrot=true
+block:id=%dirty_stone_brick_chimney,patch0=0:dirty_stone_brick_chimney,transparency=TRANSPARENT,stdrot=true
+block:id=%terracotta_chimney,patch0=0:terracotta_chimney,transparency=TRANSPARENT,stdrot=true
+block:id=%dirty_terracotta_chimney,patch0=0:terracotta_chimney,transparency=TRANSPARENT,stdrot=true
+block:id=%copper_chimney,patch0=0:copper_chimney,transparency=TRANSPARENT,stdrot=true
+block:id=%dirty_copper_chimney,patch0=0:copper_chimney,transparency=TRANSPARENT,stdrot=true

@@ -1,0 +1,4 @@
+modname:origins
+
+texture:id=cobweb,filename=assets/minecraft/textures/block/cobweb.png,xcount=1,ycount=1
+block:id=%temporary_cobweb,patch0=0:cobweb,transparency=TRANSPARENT,stdrot=true

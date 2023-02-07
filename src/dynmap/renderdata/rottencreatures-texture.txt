@@ -1,0 +1,6 @@
+modname:rottencreatures
+
+texture:id=tnt_barrel_top,filename=assets/rottencreatures/textures/block/tnt_barrel_top.png,xcount=1,ycount=1
+texture:id=tnt_barrel_side,filename=assets/rottencreatures/textures/block/tnt_barrel_side.png,xcount=1,ycount=1
+texture:id=tnt_barrel_bottom,filename=assets/rottencreatures/textures/block/tnt_barrel_bottom.png,xcount=1,ycount=1
+block:id=%tnt_barrel,patch0=0:tnt_barrel_side,patch1=0:tnt_barrel_bottom,patch2=0:tnt_barrel_side,patch3=0:tnt_barrel_side,patch4=0:tnt_barrel_top,patch5=0:tnt_barrel_side,stdrot=true

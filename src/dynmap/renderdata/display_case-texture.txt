@@ -1,0 +1,4 @@
+modname:display_case
+
+texture:id=display_case,filename=assets/display_case/textures/blocks/display_case.png,xcount=1,ycount=1
+block:id=%display_case,patch0=0:display_case,transparency=SEMITRANSPARENT,stdrot=true
