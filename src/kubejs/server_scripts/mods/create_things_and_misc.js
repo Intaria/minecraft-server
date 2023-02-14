@@ -1,6 +1,7 @@
 ServerEvents.recipes(event => {   
     //Временно, пока не разберемся, нахера он
     event.remove({output: 'create_things_and_misc:blaze_ballon'});
+    event.remove({output: 'create_things_and_misc:friendship_cake'});
 
     //Убрал, пока выглядит коряво
     event.remove({output: 'create_things_and_misc:speed_25'});
