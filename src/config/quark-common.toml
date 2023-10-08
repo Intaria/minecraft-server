@@ -119,7 +119,6 @@
 	"Raw Metal Bricks" = true
 	"Rainbow Lamps" = true
 	"Nether Brick Fence Gate" = true
-	"More Stone Variants" = true
 	"More Potted Plants" = true
 	"More Mud Blocks" = true
 	"More Brick Types" = true
@@ -186,11 +185,6 @@
 		"Light Level" = 15
 		#Whether Rainbow Lamps should be made from and themed on Corundum if that module is enabled.
 		"Use Corundum" = true
-
-	[building.more_stone_variants]
-		"Enable Bricks" = true
-		"Enable Chiseled Bricks" = true
-		"Enable Pillar" = true
 
 	[building.more_brick_types]
 		#This also comes with a utility recipe for Red Nether Bricks
@@ -542,130 +536,11 @@
 
 [world]
 	"No More Lava Pockets" = true
-	"New Stone Types" = true
 	Corundum = true
 	"Blossom Trees" = true
 	"Big Stone Clusters" = true
 	"Azalea Wood" = true
 	"Ancient Wood" = true
-
-	[world.new_stone_types]
-		"Enable Limestone" = true
-		"Enable Jasper" = true
-		"Enable Shale" = true
-		"Enable Myalite" = true
-
-		[world.new_stone_types.limestone]
-
-			[world.new_stone_types.limestone.dimensions]
-				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
-
-			[world.new_stone_types.limestone.oregen_lower]
-				#Allowed values: [-64,320]
-				"Min Height" = 0
-				#Allowed values: [-64,320]
-				"Max Height" = 60
-				#Allowed values: [0,)
-				"Cluster Size" = 64
-				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
-				#Allowed values: [0,)
-				"Cluster Count" = 2.0
-
-			[world.new_stone_types.limestone.oregen_upper]
-				#Allowed values: [-64,320]
-				"Min Height" = 64
-				#Allowed values: [-64,320]
-				"Max Height" = 128
-				#Allowed values: [0,)
-				"Cluster Size" = 64
-				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
-				#Allowed values: [0,)
-				"Cluster Count" = 0.1666666
-
-		[world.new_stone_types.jasper]
-
-			[world.new_stone_types.jasper.dimensions]
-				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
-
-			[world.new_stone_types.jasper.oregen_lower]
-				#Allowed values: [-64,320]
-				"Min Height" = 0
-				#Allowed values: [-64,320]
-				"Max Height" = 60
-				#Allowed values: [0,)
-				"Cluster Size" = 64
-				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
-				#Allowed values: [0,)
-				"Cluster Count" = 2.0
-
-			[world.new_stone_types.jasper.oregen_upper]
-				#Allowed values: [-64,320]
-				"Min Height" = 64
-				#Allowed values: [-64,320]
-				"Max Height" = 128
-				#Allowed values: [0,)
-				"Cluster Size" = 64
-				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
-				#Allowed values: [0,)
-				"Cluster Count" = 0.1666666
-
-		[world.new_stone_types.shale]
-
-			[world.new_stone_types.shale.dimensions]
-				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
-
-			[world.new_stone_types.shale.oregen_lower]
-				#Allowed values: [-64,320]
-				"Min Height" = 0
-				#Allowed values: [-64,320]
-				"Max Height" = 60
-				#Allowed values: [0,)
-				"Cluster Size" = 64
-				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
-				#Allowed values: [0,)
-				"Cluster Count" = 2.0
-
-			[world.new_stone_types.shale.oregen_upper]
-				#Allowed values: [-64,320]
-				"Min Height" = 64
-				#Allowed values: [-64,320]
-				"Max Height" = 128
-				#Allowed values: [0,)
-				"Cluster Size" = 64
-				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
-				#Allowed values: [0,)
-				"Cluster Count" = 0.1666666
-
-		[world.new_stone_types.myalite]
-
-			[world.new_stone_types.myalite.dimensions]
-				"Is Blacklist" = false
-				Dimensions = ["minecraft:the_end"]
-
-			[world.new_stone_types.myalite.oregen_lower]
-				#Allowed values: [-64,320]
-				"Min Height" = 0
-				#Allowed values: [-64,320]
-				"Max Height" = 60
-				#Allowed values: [0,)
-				"Cluster Size" = 64
-				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
-				#Allowed values: [0,)
-				"Cluster Count" = 2.0
-
-			[world.new_stone_types.myalite.oregen_upper]
-				#Allowed values: [-64,320]
-				"Min Height" = 64
-				#Allowed values: [-64,320]
-				"Max Height" = 128
-				#Allowed values: [0,)
-				"Cluster Size" = 64
-				#Can be a positive integer or a fractional value betweeen 0 and 1. If integer, it spawns that many clusters. If fractional, it has that chance to spawn a single cluster. Set exactly zero to not spawn at all.
-				#Allowed values: [0,)
-				"Cluster Count" = 0.1666666
 
 	[world.corundum]
 		#Allowed values: [0,1]
@@ -845,131 +720,6 @@
 				[world.big_stone_clusters.calcite.biomes.biomes]
 					Biomes = []
 					"Is Blacklist" = true
-
-		[world.big_stone_clusters.limestone]
-			Enabled = true
-			#Allowed values: [0,)
-			Rarity = 4
-			#Allowed values: [-64,320]
-			"Min Y Level" = 20
-			#Allowed values: [-64,320]
-			"Max Y Level" = 80
-			#Allowed values: [0,)
-			"Horizontal Size" = 14
-			#Allowed values: [0,)
-			"Vertical Size" = 14
-			#Allowed values: [0,)
-			"Horizontal Variation" = 9
-			#Allowed values: [0,)
-			"Vertical Variation" = 9
-
-			[world.big_stone_clusters.limestone.dimensions]
-				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
-
-			[world.big_stone_clusters.limestone.biomes]
-
-				[world.big_stone_clusters.limestone.biomes.tags]
-					"Biome Tags" = ["forge:is_swamp", "minecraft:is_ocean"]
-					"Is Blacklist" = false
-
-				[world.big_stone_clusters.limestone.biomes.biomes]
-					Biomes = []
-					"Is Blacklist" = true
-
-		[world.big_stone_clusters.jasper]
-			Enabled = true
-			#Allowed values: [0,)
-			Rarity = 4
-			#Allowed values: [-64,320]
-			"Min Y Level" = 20
-			#Allowed values: [-64,320]
-			"Max Y Level" = 80
-			#Allowed values: [0,)
-			"Horizontal Size" = 14
-			#Allowed values: [0,)
-			"Vertical Size" = 14
-			#Allowed values: [0,)
-			"Horizontal Variation" = 9
-			#Allowed values: [0,)
-			"Vertical Variation" = 9
-
-			[world.big_stone_clusters.jasper.dimensions]
-				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
-
-			[world.big_stone_clusters.jasper.biomes]
-
-				[world.big_stone_clusters.jasper.biomes.tags]
-					"Biome Tags" = ["minecraft:is_badlands", "forge:is_sandy"]
-					"Is Blacklist" = false
-
-				[world.big_stone_clusters.jasper.biomes.biomes]
-					Biomes = []
-					"Is Blacklist" = true
-
-		[world.big_stone_clusters.shale]
-			Enabled = true
-			#Allowed values: [0,)
-			Rarity = 4
-			#Allowed values: [-64,320]
-			"Min Y Level" = 20
-			#Allowed values: [-64,320]
-			"Max Y Level" = 80
-			#Allowed values: [0,)
-			"Horizontal Size" = 14
-			#Allowed values: [0,)
-			"Vertical Size" = 14
-			#Allowed values: [0,)
-			"Horizontal Variation" = 9
-			#Allowed values: [0,)
-			"Vertical Variation" = 9
-
-			[world.big_stone_clusters.shale.dimensions]
-				"Is Blacklist" = false
-				Dimensions = ["minecraft:overworld"]
-
-			[world.big_stone_clusters.shale.biomes]
-
-				[world.big_stone_clusters.shale.biomes.tags]
-					"Biome Tags" = ["forge:is_snowy"]
-					"Is Blacklist" = false
-
-				[world.big_stone_clusters.shale.biomes.biomes]
-					Biomes = []
-					"Is Blacklist" = true
-
-		[world.big_stone_clusters.myalite]
-			"Generate In Air" = true
-			Enabled = true
-			#Allowed values: [0,)
-			Rarity = 100
-			#Allowed values: [-64,320]
-			"Min Y Level" = 58
-			#Allowed values: [-64,320]
-			"Max Y Level" = 62
-			#Allowed values: [0,)
-			"Horizontal Size" = 20
-			#Allowed values: [0,)
-			"Vertical Size" = 40
-			#Allowed values: [0,)
-			"Horizontal Variation" = 6
-			#Allowed values: [0,)
-			"Vertical Variation" = 10
-
-			[world.big_stone_clusters.myalite.dimensions]
-				"Is Blacklist" = false
-				Dimensions = ["minecraft:the_end"]
-
-			[world.big_stone_clusters.myalite.biomes]
-
-				[world.big_stone_clusters.myalite.biomes.tags]
-					"Biome Tags" = []
-					"Is Blacklist" = true
-
-				[world.big_stone_clusters.myalite.biomes.biomes]
-					Biomes = ["minecraft:end_highlands"]
-					"Is Blacklist" = false
 
 	[world.azalea_wood]
 		#This feature disables itself if any of the following mods are loaded: 
