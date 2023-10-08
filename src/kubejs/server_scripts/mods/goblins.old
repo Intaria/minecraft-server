@@ -1,4 +1,0 @@
-//МБ в будущем выпилить что-то еще
-ServerEvents.recipes(event => {   
-    //event.remove({output: 'goblins:'});
-})
