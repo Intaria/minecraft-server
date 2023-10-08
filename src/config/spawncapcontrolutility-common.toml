@@ -1,0 +1,19 @@
+#Max Monsters (zombie,skeleton, creeper, etc.)
+#Range: 1 ~ 210
+monsterCap = 110
+#MaxCreatures (sheep, cows)
+#Range: 1 ~ 210
+creatureCap = 40
+#Max Ambient (bats)
+#Range: 1 ~ 210
+ambientCap = 12
+#Max water creature (squid, dolphins)
+#Range: 1 ~ 210
+waterCreatureCap = 30
+#Max Water Ambient (Tropical Fish)
+#Range: 1 ~ 210
+waterAmbientCap = 20
+#Max Water Creature (Glow Squid)
+#Range: 1 ~ 210
+undergroundWaterCreatureCap = 5
+

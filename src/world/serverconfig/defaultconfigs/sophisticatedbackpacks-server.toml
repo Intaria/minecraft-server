@@ -1,0 +1,76 @@
+
+#Server Settings
+[server]
+	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
+	disallowedItems = []
+	#Determines if container items (those that override canFitInsideContainerItems to false) are able to fit in backpacks
+	containerItemsDisallowed = false
+	#List of blocks that inventory interaction upgrades can't interact with - e.g. "minecraft:shulker_box"
+	noInteractionBlocks = []
+	#List of blocks that are not allowed to connect to backpacks - e.g. "refinedstorage:external_storage"
+	noConnectionBlocks = []
+	#Turns on/off item fluid handler of backpack in its item form. There are some dupe bugs caused by default fluid handling implementation that manifest when backpack is drained / filled in its item form in another mod's tank and the only way to prevent them is disallowing drain/fill in item form altogether
+	itemFluidHandlerEnabled = true
+	#Determines whether player can right click on backpack that another player is wearing to open it. If off will turn off that capability for everyone and remove related settings from backpack.
+	allowOpeningOtherPlayerBackpacks = true
+	#Allows disabling item display settings. Primarily in cases where custom backpack model doesn't support showing the item. (Requires game restart to take effect)
+	itemDisplayDisabled = false
+	#Allows disabling logic that dedupes backpacks with the same UUID in players' inventory. This is here to allow turning off the logic just in case it would be causing performance issues.
+	tickDedupeLogicDisabled = false
+	#Determines if backpacks can be placed in container items (those that check for return value of canFitInsideContainerItems)
+	canBePlacedInContainerItems = false
+
+	#Leather Backpack Settings
+	[server.leatherBackpack]
+		#Number of inventory slots in the backpack
+		#Range: 1 ~ 144
+		inventorySlotCount = 27
+		#Number of upgrade slots in the backpack
+		#Range: 0 ~ 10
+		upgradeSlotCount = 0
+
+	#Stack Upgrade Settings
+	[server.stackUpgrade]
+		#List of items that are not supposed to stack in storage even when stack upgrade is inserted. Item registry names are expected here.
+		nonStackableItems = ["minecraft:bundle", "minecraft:shulker_box", "minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
+
+	#Settings for Spawning Entities with Backpack
+	[server.entityBackpackAdditions]
+		#Chance of an entity spawning with Backpack
+		#Range: 0.0 ~ 1.0
+		chance = 0.01
+		#Turns on/off addition of loot into backpacks
+		addLoot = true
+		#Turns on/off buffing the entity that wears backpack with potion effects. These are scaled based on how much loot is added.
+		buffWithPotionEffects = true
+		#Turns on/off buffing the entity that wears backpack with additional health. Health is scaled based on backpack tier the mob wears.
+		buffHealth = true
+		#Turns on/off equiping the entity that wears backpack with armor. What armor material and how enchanted is scaled based on backpack tier the mob wears.
+		equipWithArmor = true
+		#Map of entities that can spawn with backpack and related loot tables (if adding a loot is enabled) in format of "EntityRegistryName|LootTableName"
+		entityLootTableList = ["minecraft:creeper|minecraft:chests/desert_pyramid", "minecraft:drowned|minecraft:chests/shipwreck_treasure", "minecraft:enderman|minecraft:chests/end_city_treasure", "minecraft:evoker|minecraft:chests/woodland_mansion", "minecraft:husk|minecraft:chests/desert_pyramid", "minecraft:piglin|minecraft:chests/bastion_bridge", "minecraft:piglin_brute|minecraft:chests/bastion_treasure", "minecraft:pillager|minecraft:chests/pillager_outpost", "minecraft:skeleton|minecraft:chests/simple_dungeon", "minecraft:stray|minecraft:chests/igloo_chest", "minecraft:vex|minecraft:chests/woodland_mansion", "minecraft:vindicator|minecraft:chests/woodland_mansion", "minecraft:witch|minecraft:chests/buried_treasure", "minecraft:wither_skeleton|minecraft:chests/nether_bridge", "minecraft:zombie|minecraft:chests/simple_dungeon", "minecraft:zombie_villager|minecraft:chests/village/village_armorer", "minecraft:zombified_piglin|minecraft:chests/bastion_other"]
+		#List of music discs that are not supposed to be played by entities
+		discBlockList = ["botania:record_gaia_1", "botania:record_gaia_2"]
+		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
+		playJukebox = true
+		#Determines whether backpack drops to fake players if killed by them in addition to real ones that it always drops to
+		dropToFakePlayers = false
+		#Chance of mob dropping backpack when killed by player
+		#Range: 0.0 ~ 1.0
+		backpackDropChance = 0.5
+		#Chance increase per looting level of mob dropping backpack
+		#Range: 0.0 ~ 0.3
+		lootingChanceIncreasePerLevel = 0.15
+
+	[server.nerfs]
+		#Determines if too many backpacks in player's inventory cause slowness to the player
+		tooManyBackpacksSlowness = false
+		#Maximum number of backpacks in player's inventory that will not cause slowness
+		#Range: 1 ~ 27
+		maxNumberOfBackpacks = 3
+		#Ratio of slowness levels per every backpack above the maximum number allowed. (number of backpacks above the max gets multiplied by this number and ceiled)
+		#Range: 0.1 ~ 5.0
+		slownessLevelsPerAdditionalBackpack = 1.0
+		#Determines if active upgrades will only work in the backpack that's worn by the player. Active upgrades are for example magnet, pickup, cooking, feeding upgrades.
+		onlyWornBackpackTriggersUpgrades = false
+

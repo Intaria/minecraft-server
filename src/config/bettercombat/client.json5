@@ -1,12 +1,15 @@
 {
 	"isHoldToAttackEnabled": true,
 	"isMiningWithWeaponsEnabled": true,
-	"isSwingThruGrassEnabled": false,
+	"isSwingThruGrassEnabled": true,
+	"isAttackInsteadOfMineWhenEnemiesCloseEnabled": true,
 	"isHighlightCrosshairEnabled": true,
 	"hudHighlightColor": 16711680,
 	"isShowingArmsInFirstPerson": false,
 	"isShowingOtherHandFirstPerson": true,
 	"isSweepingParticleEnabled": true,
 	"isTooltipAttackRangeEnabled": true,
-	"weaponSwingSoundVolume": 100
+	"weaponSwingSoundVolume": 100,
+	"isDebugOBBEnabled": true,
+	"swingThruGrassBlacklist": "farmersdelight"
 }

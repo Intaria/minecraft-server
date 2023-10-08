@@ -1,3 +1,13 @@
+
+//под вопросом:
+//bluejay
+//cardinal
+//bear
+//deer
+//robin
+//snail
+//lion
+
 ServerEvents.recipes(event => {   
     event.remove({output: 'naturalist:teddy_bear'});
     event.remove({output: 'naturalist:cooked_venison'});

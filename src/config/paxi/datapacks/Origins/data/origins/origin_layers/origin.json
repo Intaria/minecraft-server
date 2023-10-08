@@ -1,17 +1,17 @@
 {
     "replace": true,
     "origins": [
-        "customorigins:demon",
-        "customorigins:dryad",
-        "customorigins:dwarf",
-        "customorigins:elf",
-        "customorigins:fairy",
-        "customorigins:goblin",
-        "customorigins:human",
-        "customorigins:orc",
-        "customorigins:piglin",
-        "customorigins:satyr",
-        "customorigins:tiefling",
-        "customorigins:troll"
+        "origins:demon",
+        "origins:dryad",
+        "origins:dwarf",
+        "origins:elf",
+        "origins:fairy",
+        "origins:goblin",
+        "origins:human",
+        "origins:orc",
+        "origins:piglin",
+        "origins:satyr",
+        "origins:tiefling",
+        "origins:troll"
     ]
 }

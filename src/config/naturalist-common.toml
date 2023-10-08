@@ -1,7 +1,0 @@
-
-#A higher spawn weight will make the mob spawn more often.
-#To prevent a certain mob from spawning, set its weight to 0.
-["Mob Spawn Weights"]
-	#Remove farm animals from savanna biomes (sheep, pig, chicken, cow)
-	removeSavannaFarmAnimals = true
-

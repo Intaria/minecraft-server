@@ -1,39 +1,16 @@
 
 [types]
 
-	[types.leaves_type]
-
-		[types.leaves_type.nethers_exoticism]
-			jaboticaba = true
-
-		[types.leaves_type.vinery]
-			grapevine = true
-			cherry = true
-
-		[types.leaves_type.ecologics]
-			coconut = true
-			walnut = true
-
-		[types.leaves_type.quark]
-			ancient = true
-			blue_blossom = true
-			lavender_blossom = true
-			orange_blossom = true
-			pink_blossom = true
-			yellow_blossom = true
-			red_blossom = true
-
 	[types.wood_type]
 
-		[types.wood_type.nethers_exoticism]
-			jabuticaba = true
-			ramboutan = true
+		[types.wood_type.vinery]
+			cherry = true
 
 		[types.wood_type.quark]
 			bamboo = true
-			azalea = false
-			ancient = true
+			azalea = true
 			blossom = true
+			ancient = true
 
 		[types.wood_type.ecologics]
 			flowering_azalea = true
@@ -41,18 +18,35 @@
 			coconut = true
 			walnut = true
 
-		[types.wood_type.vinery]
+	[types.leaves_type]
+
+		[types.leaves_type.vinery]
+			grapevine = true
 			cherry = true
+
+		[types.leaves_type.quark]
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			pink_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+			ancient = true
+
+		[types.leaves_type.ecologics]
+			coconut = true
+			walnut = true
 
 [entries]
 
-	[entries.leaves_type]
-
-		[entries.leaves_type.quark]
-			hedge = true
-			leaf_carpet = true
-
 	[entries.wood_type]
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.dramaticdoors]
+			short_door = true
+			tall_door = true
 
 		[entries.wood_type.mcwroofs]
 			upper_lower_roof = true
@@ -83,11 +77,12 @@
 			window = true
 			window_pane = true
 
-		[entries.wood_type.farmersdelight]
-			cabinet = true
+		[entries.wood_type.mcwpaths]
+			planks_path = true
 
 		[entries.wood_type.quark]
-			vertical_planks = true
+			hollow_log = true
+			vertical_planks = false
 			post = true
 			trapped_chest = true
 			bookshelf = true
@@ -95,9 +90,9 @@
 			stripped_post = true
 			ladder = true
 
-		[entries.wood_type.mcwpaths]
-			planks_path = true
+	[entries.leaves_type]
 
-		[entries.wood_type.dramaticdoors]
-			tall_door = true
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
 
