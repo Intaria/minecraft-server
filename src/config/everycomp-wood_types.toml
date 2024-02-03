@@ -65,7 +65,7 @@
 	[entries.wood_type]
 
 		[entries.wood_type.quark]
-			vertical_planks = true
+			vertical_planks = false
 			post = true
 			trapped_chest = true
 			bookshelf = true
