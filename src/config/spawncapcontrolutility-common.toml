@@ -3,17 +3,17 @@
 monsterCap = 110
 #MaxCreatures (sheep, cows)
 #Range: 1 ~ 210
-creatureCap = 40
+creatureCap = 60
 #Max Ambient (bats)
 #Range: 1 ~ 210
-ambientCap = 12
+ambientCap = 40
 #Max water creature (squid, dolphins)
 #Range: 1 ~ 210
-waterCreatureCap = 30
+waterCreatureCap = 40
 #Max Water Ambient (Tropical Fish)
 #Range: 1 ~ 210
-waterAmbientCap = 20
+waterAmbientCap = 40
 #Max Water Creature (Glow Squid)
 #Range: 1 ~ 210
-undergroundWaterCreatureCap = 5
+undergroundWaterCreatureCap = 40
 
