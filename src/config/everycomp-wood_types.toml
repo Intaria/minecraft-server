@@ -46,13 +46,8 @@
 			ancient = true
 
 		[types.wood_type.ecologics]
-			flowering_azalea = false
-			azalea = true
 			coconut = true
 			walnut = true
-
-		[types.wood_type.iceandfire]
-			dreadwood = false
 
 [entries]
 
