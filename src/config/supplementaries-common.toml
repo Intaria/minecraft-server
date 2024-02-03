@@ -70,25 +70,6 @@
 		#In case you want to disable supplementaries ropes you can specify here another mod rope and they will be used for rope arrows and in mineshafts instead
 		rope_override = "supplementaries:rope"
 
-	[functional.jar]
-		enabled = true
-		#Jar liquid capacity: leave at 12 for pixel accuracy
-		#Range: 0 ~ 1024
-		capacity = 12
-		#Allow right click to instantly eat or drink food or potions inside a placed jar.
-		#Disable if you think this ability is op (honey for example). Cookies are excluded
-		drink_from_jar = false
-		#Allows the player to directly drink from jar items
-		drink_from_jar_item = false
-		#Dynamically allows all small mobs inside jars depending on their hitbox size. Tinted jars can accept hostile mbos too
-		jar_auto_detect = false
-		#Allow Jars to capture small mobs
-		jar_capture = true
-		#Allow Jars to hold cookies
-		jar_cookies = true
-		#Allow Jars to hold liquids from bottles, buckets and bowls
-		jar_liquids = true
-
 	[functional.cage]
 		enabled = true
 		#Allows all entities to be captured by cages and jars. Not meant for survival
@@ -272,12 +253,6 @@
 	[building.sign_post]
 		enabled = true
 
-		[building.sign_post.way_sign]
-			#Entirely disables them from spawning
-			enabled = false
-			#With this option road signs will display the distance to the structure that they are pointing to
-			show_distance_text = true
-
 [tools]
 	antique_ink = true
 	candy = true
@@ -313,8 +288,6 @@
 	creative_tab = false
 	#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
 	dispensers = true
-	#Creates a creative tab full of filled jars
-	jar_tab = false
 	#Save generated resources to disk in a 'debug' folder in your game directory. Mainly for debug purposes but can be used to generate assets in all wood types for your mods :0
 	debug_save_dynamic_pack = false
 	#Turn this on to disable any interaction on blocks placed by other players. This affects item shelves, signs, flower pots, and boards. Useful for protected servers. Note that it will affect only blocks placed after this is turned on and such blocks will keep being protected after this option is disabled

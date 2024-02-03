@@ -1,0 +1,221 @@
+
+[Generation]
+
+	[Generation.Dragon]
+		#Whether to generate dragon skeletons or not
+		"Generate Dragon Skeletons" = true
+		#1 out of this number chance per chunk for generation
+		#Range: 1 ~ 10000
+		"Generate Dragon Skeleton Chance" = 50
+		#1 out of this number chance per chunk for generation
+		#Range: 1 ~ 10000
+		"Generate Dragon Cave Chance" = 50
+		#1 out of this number chance per block that gold will generate in dragon lairs.
+		#Range: 1 ~ 10000
+		"Dragon Den Gold Amount" = 4
+		#Ratio of Stone(this number) to Ores in Dragon Caves
+		#Range: 1 ~ 10000
+		"Dragon Cave Ore Ratio" = 45
+
+	[Generation.Structures-Features]
+		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn.
+		#Range: 1 ~ 10000
+		"Dangerous World Gen Dist From Spawn" = 1000
+		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
+		#Range: 1 ~ 10000
+		"Dangerous World Gen Dist Seperation" = 400
+		#Whether to generate glacier biomes or not
+		"Generate Glaciers" = true
+		#Glacier Spawn Weight. Higher number = more common
+		#Range: 1 ~ 10000
+		"Glacier Spawn Weight" = 4
+		#True if mausoleums are allowed to generate
+		"Generate Mausoleums" = true
+
+[Dragons]
+
+	[Dragons.Griefing]
+		#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default. This value is also affected by minecrafts mob griefing rule.
+		#Range: 0 ~ 2
+		"Dragon Griefing" = 2
+		#True if tamed dragons can follow the griefing rules.
+		"Tamed Dragon Griefing" = true
+		#The percentage chance for a block to drop as an item when a dragon breaks it.
+		#Range: 0.0 ~ 1.0
+		"Dragon Block Breaking Drop Chance" = 0.10000000149011612
+
+	[Dragons.Attributes]
+		#How long it takes(in ticks) for a dragon egg to hatch
+		#Range: > 1
+		"Dragon Egg Hatch Time" = 7200
+		#Dragon Flap Noise Distance - Larger number, further away you can hear it
+		#Range: 0 ~ 10000
+		"Dragon Flap Noise Distance" = 4
+		#Max dragon health. Health is scaled to this
+		#Range: 1.0 ~ 100000.0
+		"Dragon Health" = 500.0
+		#Max dragon attack damage. Attack Damage is scaled to this
+		#Range: 1 ~ 10000
+		"Dragon Attack Damage" = 17
+		#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
+		#Range: 0.0 ~ 10000.0
+		"Dragon Attack Damage(Fire breath)" = 2.0
+		#Damage dealt from a successful ice breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
+		#Range: 0.0 ~ 10000.0
+		"Dragon Attack Damage(Ice breath)" = 2.5
+		#Damage dealt from a successful lightning breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
+		#Range: 0.0 ~ 10000.0
+		"Dragon Attack Damage(Lightning breath)" = 3.5
+		#Change this to slow down or speed up dragon or amphithere flight.
+		#Range: 0.0 ~ 2.0
+		"Dragon Flight Speed Modifier" = 1.0
+		#Enable this if your server is being bombarded with moved wrongly or moved too fast console messages. REQUIRES RESTART!
+		"Dragon Moved Wrongly Error Fix" = true
+
+	[Dragons.Behaviour]
+		#How high dragons can fly, in Y height.
+		#Range: > 100
+		"Max Dragon Flight Height" = 256
+		#How far away dragons will detect gold blocks being destroyed or chests being opened
+		#Range: 0 ~ 10000
+		"Dragon Gold Search Length" = 30
+		#Whether the bite attack from a dragon heals them or not.
+		"Dragon Bite Heal" = true
+		#True if dragons can despawn. Note that if this is false there may be SERIOUS lag issues.
+		"Dragons Despawn" = true
+		#True if tamed dragons go to sleep at night.
+		"Tamed Dragons Sleep" = true
+		#True if dragons can break blocks if they get stuck. Turn this off if your dragons randomly explode.
+		"Dragons Dig When Stuck" = false
+		#True if dragons can drop their skull on death.
+		"Dragons Drop Skull" = true
+		#True if dragons can drop their heart on death.
+		"Dragons Drop Heart" = true
+		#True if dragons can drop their blood on death.
+		"Dragons Drop Blood" = true
+		#True if dragons fire/ice charges create secondary explosions that launch blocks everywhere. Turn this to true if you like unfair explosions. Or lag.
+		"Explosive Dragon Breath" = false
+		#How many blocks away can dragons spot potential prey. Note that increasing this could cause lag.
+		#Range: 1 ~ 10000
+		"Dragon Target Search Length" = 128
+		#How many blocks away can dragons wander from their defined "home" position.
+		#Range: 1 ~ 10000
+		"Dragon Wander From Home Distance" = 40
+		#Every interval of this number in ticks, dragon hunger decreases.
+		#Range: 1 ~ 10000
+		"Dragon Hunger Tick Rate" = 3000
+		#Every interval of this number in ticks, dragon allowed to break blocks.
+		#Range: 0 ~ 10000
+		"Dragon Block Break Cooldown" = 5
+		#True if villagers should run away and hide from dragons and other hostile Ice and Fire mobs.
+		"Villagers Fear Dragons" = true
+		#True if animals should run away and hide from dragons and other hostile Ice and Fire mobs.
+		"Animals Fear Dragons" = true
+		#A more intelligent dragon pathfinding system, but is also laggier. Turn this on if you think dragons are too stupid.
+		"Intelligent Dragon Pathfinding" = false
+
+[Mobs]
+
+	[Mobs.Pixies]
+		#1 out of this number chance per chunk for generation
+		#Range: 1 ~ 10000
+		"Spawn Pixies Chance" = 60
+		#size of pixie villages
+		#Range: 1 ~ 10000
+		"Pixie Village Size" = 5
+		#True if pixies are allowed to steal from players
+		"Pixies Steal Items" = true
+
+	[Mobs.Sirens]
+		#Maximum siren health
+		#Range: 1.0 ~ 10000.0
+		"Siren Max Health" = 50.0
+		#True to make the screen pink when sirens attract players
+		"Use Siren Shader" = true
+		#1 out of this number chance per chunk for generation
+		#Range: 1 ~ 10000
+		"Spawn Sirens Chance" = 140
+		#how long(in ticks) can a siren use its sing effect on a player, without a cooldown.
+		#Range: 100 ~ 24000
+		"Siren Max Sing Time" = 12000
+		#how long(in ticks) a siren has to wait after failing to lure in a player
+		#Range: 100 ~ 24000
+		"Siren Time Between Songs" = 2000
+
+	[Mobs.Amphitheres]
+		#True if amphitheres are allowed to spawn
+		"Spawn Amphitheres" = true
+		#Amphithere spawn weight. Lower = lower chance to spawn
+		#Range: 1 ~ 10000
+		"Amphithere Spawn Weight" = 50
+		#How many blocks away can ampitheres detect villagers being hurt. Note that increasing this could cause lag.
+		#Range: 1 ~ 10000
+		"Amphithere Villager Search Length" = 64
+		#How many ticks it takes while riding an untamed amphithere to tame it.
+		#Range: 1 ~ 10000
+		"Amphithere Tame Time" = 400
+		#How fast amphitheres fly.
+		#Range: 0.0 ~ 3.0
+		"Amphithere Flight Speed" = 1.75
+		#Maximum amphithere health
+		#Range: 1.0 ~ 10000.0
+		"Amphithere Max Health" = 50.0
+		#Amphithere attack strength
+		#Range: 1.0 ~ 10000.0
+		"Amphithere Attack Strength" = 7.0
+
+	[Mobs.Hippocampus]
+		#1 out of this number chance per chunk for generation
+		#Range: 1 ~ 10000
+		"Spawn Hippocampus Chance" = 40
+		#Change this to slow down or speed up hippocampus swimming.
+		#Range: 0.0 ~ 2.0
+		"Hippocampus Swim Speed Modifier" = 1.0
+
+	[Mobs.Hippogryph]
+		#True if hippogryphs are allowed to spawn
+		"Spawn Hippogryphs" = true
+		#Hippogryph spawn weight. Lower = lower chance to spawn.
+		#Range: 1 ~ 10000
+		"Hippogryph Spawn Weight" = 3
+		#Change this to slow down or speed up hippogryph flight.
+		#Range: 0.0 ~ 2.0
+		"Hippogryph Flight Speed Modifier" = 1.0
+
+	[Mobs.Others]
+		#True if dread liches are allowed to spawn
+		"Spawn Liches" = true
+		#Dread Lich spawn weight. Lower = lower chance to spawn
+		#Range: 1 ~ 10000
+		"Lich Spawn Weight" = 2
+		#Dread Lich spawn chance. Lower = higher chance to spawn
+		#Range: 1 ~ 10000
+		"Lich Spawn Chance" = 30
+		#Allows attributes for mobs to be overridden via the config file. One might want to disable this if other mods are enabled that change mob attributes e.g armor, health etc...
+		"Allow Attribute Overriding" = true
+
+[Items]
+	#Disable this to remove easter egg with tinkers installed.
+	Weezer = false
+	#Percentage of critical strike that will disarm with easter egg tinkers material.
+	#Range: 0.0 ~ 1.0
+	"Easter Egg Tinkers Tool Disarm chance" = 0.20000000298023224
+	#True if the summon crystal can load chunks to find dragons.
+	"Chunk Load Summon Crystal" = true
+	#True if the dragon bone fire sword ignites attackers.
+	"Dragon Bone Fire Abilities" = true
+	#True if the dragon bone ice sword freezes attackers.
+	"Dragon Bone Ice Abilities" = true
+	#True if the dragon bone lightning sword strikes attackers.
+	"Dragon Bone Lightning Abilities" = true
+
+[Pathfinding]
+	#Maximum threads to use for dragon/myrmex pathfinding. Increase this number if pathing is slow and you have many cores.
+	#Range: > 1
+	"Dragon Pathfinding Threads" = 3
+	#Maximum nodes for dragons/myrmex to path too. Decrease this is dragon pathfinding is super slow or intensive.
+	#Range: > 1
+	"Dragon Max Pathfinding Nodes" = 5000
+	#Enables the option to draw the pathfinding nodes when enabled (use a stick on an entity)
+	"Debug Pathfinding Mode" = false
+
