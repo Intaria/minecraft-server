@@ -354,7 +354,7 @@
 	"Horses Swim" = true
 	"Hoe Harvesting" = true
 	"Enhanced Ladders" = true
-	Emotes = true
+	Emotes = false
 	"Dyeable Item Frames" = true
 	"Double Door Opening" = true
 	"Diamond Repair" = true
