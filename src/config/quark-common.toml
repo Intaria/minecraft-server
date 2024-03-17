@@ -1082,7 +1082,7 @@
 
 [client]
 	"Wool Shuts Up Minecarts" = true
-	"Variant Animal Textures" = true
+	"Variant Animal Textures" = false
 	"Uses For Curses" = true
 	"Soul Candles" = true
 	"Long Range Pick Block" = true
