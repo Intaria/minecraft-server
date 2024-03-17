@@ -17,11 +17,13 @@
 - rm -rf dynmap/renderdata
 
 Загружаем новые папки с локальной машины на сервер:
-- scp -P 322 -r config king@burivuhi.ru:/opt/minecraft
+- scp -P 322 -r config/ king@burivuhi.ru:/opt/minecraft/
 - scp -P 322 -r emotes king@burivuhi.ru:/opt/minecraft
 - scp -P 322 -r defaultconfigs king@burivuhi.ru:/opt/minecraft
 - scp -P 322 -r mods king@burivuhi.ru:/opt/minecraft
 - scp -P 322 -r dynmap/renderdata king@burivuhi.ru:/opt/minecraft/dynmap/
+
+
 
 
 Копируем серверные настройки модов в папку с миром:
