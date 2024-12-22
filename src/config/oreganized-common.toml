@@ -20,7 +20,7 @@
 			#Minimum y level that lead ore can generate
 			leadMinHeight = -40
 			#Maximum y level that lead ore can generate
-			leadMaxHeight = -20
+			leadMaxHeight = 20
 
 		#Silver
 		[common.oreGen.silver]
