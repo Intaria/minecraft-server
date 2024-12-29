@@ -3,12 +3,6 @@
 Подключение:
 - ssh king@burivuhi.ru -p 322
 
-Обновление версии forge:
-- wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.3.7/forge-1.19.2-43.3.7-installer.jar
-- java -jar forge-1.19.2-43.3.7-installer.jar --installServer
-- rm forge-1.19.2-43.3.7-installer.jar
-- rm forge-1.19.2-43.3.7-installer.jar.log
-
 Удаляем старые папки:
 - rm -rf config
 - rm -rf defaultconfigs
@@ -40,5 +34,63 @@
 - scp -P 322 -r king@burivuhi.ru:/opt/minecraft/logs/ .
 
 Порт для карты мира:
-- 81.90.181.11:25565
+- 81.90.180.130:25565
 
+====
+
+Настройка сервера:
+1. sudo apt install openjdk-17-jre-headless
+2. apt install screen
+3. 
+- cd /opt
+- mkdir minecraft
+- cd minecraft
+4.
+- wget https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.3.7/forge-1.19.2-43.3.7-installer.jar
+- java -jar forge-1.19.2-43.3.7-installer.jar --installServer
+- rm forge-1.19.2-43.3.7-installer.jar
+- rm forge-1.19.2-43.3.7-installer.jar.log
+5.
+- nano eula.txt
+- eula=true
+6. nano server.properties
+7. sudo ufw allow 25565
+8. 
+- sudo nano /etc/systemd/system/minecraft.service
+
+```
+[Unit]
+Description=Minecraft Server
+
+[Service]
+WorkingDirectory=/opt/minecraft/
+
+Restart=always
+
+User=minecraft
+Group=minecraft
+
+ExecStart=/usr/bin/screen -DmS minecraft-server ./run.sh
+ExecStop=/usr/bin/screen -p 0 -S minecraft-server -X eval 'stuff "say SERVER SHUTDOWN"\015'
+ExecStop=/usr/bin/screen -p 0 -S minecraft-server -X eval 'stuff "save-all"\015'
+ExecStop=/usr/bin/screen -p 0 -S minecraft-server -X eval 'stuff "stop"\015'
+
+[Install]
+WantedBy=multi-user.target
+```
+
+- sudo systemctl enable minecraft.service
+
+
+
+disable elytra movement check - true
+sleep percentage - 66
+respawn location radius - 1
+
+spawn phantoms - false
+spawn pillager patroul - false
+spawn wardens - false
+
+update fire - false
+
+reduce debug info - true
